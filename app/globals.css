@@ -362,6 +362,11 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 .header-florals { align-self: center; justify-self: end; width: 138px; height: 144px; object-fit: contain; }
 
 .original-home { overflow: hidden; background: #f8f4f1; }
+.reveal-enabled .reveal-up { opacity: 0; transform: translateY(44px); transition: opacity .85s ease, transform .85s cubic-bezier(.22, 1, .36, 1); }
+.reveal-enabled .reveal-up.is-visible { opacity: 1; transform: translateY(0); }
+.reveal-enabled .reveal-delay-1 { transition-delay: .1s; }
+.reveal-enabled .reveal-delay-2 { transition-delay: .2s; }
+.reveal-enabled .reveal-delay-3 { transition-delay: .3s; }
 .original-home .section-shell { width: min(1140px, calc(100% - 40px)); }
 .home-title { display: flex; height: 82px; flex-direction: column; align-items: center; padding-top: 9px; text-align: center; }
 .home-title h1 { color: #4f4a45; font-family: "Aboreto", sans-serif; font-size: 36px; font-weight: 400; line-height: 1.12; letter-spacing: 0; text-transform: uppercase; }

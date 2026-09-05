@@ -2,12 +2,14 @@ import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import wordpress from "@/content/wordpress.json";
 import SocialFeed from "@/components/social-feed";
+import { HomeReveal } from "@/components/home-reveal";
 
 export default function Home() {
   const featured = wordpress.products.slice(-4).reverse();
 
   return (
     <main id="main" className="original-home">
+      <HomeReveal />
       <section className="home-title" aria-labelledby="home-title">
         <h1 id="home-title">Anat Handmade Pottery</h1>
         <p>By Anat Varon Moneta</p>
@@ -21,7 +23,7 @@ export default function Home() {
       </section>
 
       <section className="discover-rows section-shell">
-        <article className="discover-row">
+        <article className="discover-row reveal-up">
           <Link className="discover-image arch-right" href="/classes/">
             <img src="/media/2026/02/pottery-classes-1024x1024.webp" alt="Pottery classes in South Ealing" />
           </Link>
@@ -32,7 +34,7 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="discover-row">
+        <article className="discover-row reveal-up">
           <Link className="discover-image arch-right" href="/shop/">
             <img src="/media/2026/02/shop-now-1024x1024.webp" alt="Colourful porcelain lidded boxes with floral prints" />
           </Link>
@@ -45,13 +47,13 @@ export default function Home() {
       </section>
 
       <section className="home-shop section-shell" aria-labelledby="home-shop-title">
-        <div className="home-section-title">
+        <div className="home-section-title reveal-up">
           <img src="/media/2026/02/floral-petals-3-1024x883.webp" alt="" />
           <h2 id="home-shop-title">Shop</h2>
         </div>
         <div className="home-shop-grid">
           {featured.map((product) => (
-            <article className="home-product" key={product.slug}>
+            <article className={`home-product reveal-up reveal-delay-${Math.min(3, featured.indexOf(product))}`} key={product.slug}>
               <Link className="home-product-image" href={`/product/${product.slug}/`}>
                 <img src={product.image?.url || "/media/woocommerce-placeholder.webp"} alt={product.image?.alt || product.title} loading="lazy" />
               </Link>
