@@ -167,6 +167,12 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 .shop-hero > div > p:last-child { margin-top: 1.2rem; color: var(--muted); font-size: 1.15rem; }
 .shop-hero img { width: 100%; aspect-ratio: 1; border-radius: 50%; object-fit: cover; }
 .category-row { justify-content: center; margin: 3rem 0; }
+.category-row button { padding: .38rem .82rem; border: 1px solid transparent; border-radius: 999px; background: var(--blush-soft); color: #734b44; font-size: .76rem; font-weight: 700; line-height: 1.3; cursor: pointer; transition: border-color .2s ease, background .2s ease, color .2s ease, transform .2s ease; }
+.category-row button:hover { border-color: #dca399; transform: translateY(-1px); }
+.category-row button.is-active { border-color: var(--clay); background: var(--clay); color: white; }
+.category-row button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.shop-catalog .product-card { animation: shop-card-in .35s ease both; }
+@keyframes shop-card-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 .shop-grid { padding-bottom: 110px; row-gap: 3rem; }
 .product-detail { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(360px, .8fr); gap: clamp(3rem, 7vw, 7rem); align-items: center; padding-block: 70px 90px; }
 .product-detail-image { overflow: hidden; background: var(--cream); }
