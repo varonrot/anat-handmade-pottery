@@ -1,0 +1,804 @@
+{
+  "pages": [
+    {
+      "id": 2,
+      "type": "page",
+      "title": "Sample Page",
+      "slug": "sample-page",
+      "link": "https://anatpottery.co.uk/sample-page/",
+      "date": "2025-12-15 22:02:29",
+      "excerpt": "",
+      "content": "<p>This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n\n<p>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</p>\n\n</blockquote>\n\n\n\n<p>...or something like this:</p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n\n<p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p>\n\n</blockquote>\n\n\n\n<p>As a new WordPress user, you should go to <a href=\"https://anatpottery.co.uk/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 11,
+      "type": "page",
+      "title": "Home",
+      "slug": "home",
+      "link": "https://anatpottery.co.uk/",
+      "date": "2025-12-16 11:42:51",
+      "excerpt": "",
+      "content": "<h1>Anat Handmade Pottery</h1>\t\t\t\t\t<h2>By Anat Varon Moneta</h2>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"1024\" height=\"883\" src=\"/media/2026/02/floral-petals-3-1024x883.webp\" alt=\"floral petals\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Discover</h2>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/Classes\">\n\t\t\t\t\t\t\t<img width=\"1024\" height=\"1024\" src=\"/media/2026/02/pottery-classes-1024x1024.webp\" alt=\"pottery classes in south ealing\" />\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Discover Pottery Classes</h2>\t\t<p>Join my pottery workshops and explore your creativity. From beginners to advanced students, I offer small, personalized classes where you can learn techniques, create your own pieces, and take home something special. Check schedules, prices, and full class details below.</p>\t\t\t\t\t\t\t\t<a href=\"/classes\">\n\t\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z\"></path></svg>\t\t\t\n\t\t\t\t\t\t\t\t\tJoin a Class\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/shop\">\n\t\t\t\t\t\t\t<img width=\"1024\" height=\"1024\" src=\"/media/2026/02/shop-now-1024x1024.webp\" alt=\"porcelain colourful lidded boxes with floral prints on the lid\" />\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Discover Handmade Pottery</h2>\t\t<p>Browse a collection of handcrafted pottery pieces, each made with care and attention to detail. From unique jars to decorative items, find something special for your home or as a gift.</p>\t\t\t\t\t\t\t\t<a href=\"/shop\">\n\t\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z\"></path></svg>\t\t\t\n\t\t\t\t\t\t\t\t\tBrowse Collection\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"1024\" height=\"883\" src=\"/media/2026/02/floral-petals-3-1024x883.webp\" alt=\"floral petals\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Shop</h2>\t\t[products limit=\"4\" columns=\"4\" orderby=\"date\"]\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"1024\" height=\"883\" src=\"/media/2026/02/floral-petals-3-1024x883.webp\" alt=\"floral petals\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Social</h2>\t\t\t\t\t<h5><a href=\"https://www.instagram.com/anat.handmade.pottery/\" target=\"_blank\">@anat.handmade.pottery</a></h5>\t\t[instagram-feed feed=1]",
+      "image": null,
+      "categories": [],
+      "seoTitle": "%sitename% %sep% Pottery Classes in Ealing, London",
+      "seoDescription": "Handcrafted ceramics and pottery classes in Ealing. Browse unique handmade pieces or book a small-group pottery workshop in our London studio."
+    },
+    {
+      "id": 46,
+      "type": "page",
+      "title": "Studio Collection",
+      "slug": "shop",
+      "link": "https://anatpottery.co.uk/shop/",
+      "date": "2025-12-16 12:22:15",
+      "excerpt": "",
+      "content": "<p class=\"has-medium-font-size\">Small batch, hand-thrown stoneware crafted in South Ealing. Click on any piece to view details and purchase via Etsy.</p>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 47,
+      "type": "page",
+      "title": "Cart",
+      "slug": "cart",
+      "link": "https://anatpottery.co.uk/cart/",
+      "date": "2025-12-16 12:22:15",
+      "excerpt": "",
+      "content": "[woocommerce_cart]",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 48,
+      "type": "page",
+      "title": "Checkout",
+      "slug": "checkout",
+      "link": "https://anatpottery.co.uk/checkout/",
+      "date": "2025-12-16 12:22:15",
+      "excerpt": "",
+      "content": "[woocommerce_checkout]",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 49,
+      "type": "page",
+      "title": "My account",
+      "slug": "my-account",
+      "link": "https://anatpottery.co.uk/my-account/",
+      "date": "2025-12-16 12:22:15",
+      "excerpt": "",
+      "content": "[woocommerce_my_account]",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 122,
+      "type": "page",
+      "title": "The Studio",
+      "slug": "the-studio",
+      "link": "https://anatpottery.co.uk/the-studio/",
+      "date": "2025-12-16 12:55:44",
+      "excerpt": "",
+      "content": "<h2>The Garden Studio</h2>\t\t\t\t\t<h2>A Boutique Garden Studio in West London</h2>\t\t<p data-path-to-node=\"7,0\">Welcome to Anat Handmade Pottery, a sanctuary tucked away in the heart of Ealing. This light-filled garden studio was designed specifically for beginners and improvers who seek more than just a class—it is a place for hands-on guidance and artistic growth.</p><p data-path-to-node=\"7,0\"><br></p>\n<p data-path-to-node=\"7,1\">The studio is fully equipped with professional wheels, hand-building tools, and a kiln, all thoughtfully arranged to maintain a calm and inspiring atmosphere. Surrounded by natural light and garden greenery, it offers the perfect setting to slow down, relax, and reconnect with your creativity.</p><p data-path-to-node=\"7,1\"><br></p>\n<p data-path-to-node=\"7,2\">Here, we leave the rush of the city behind. It is a quiet escape where you can breathe, enjoy the tactile nature of clay, and experience the simple joy of creating something beautiful with your own hands.</p>\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"1024\" height=\"768\" src=\"/media/2026/01/studio_image_main-1024x768.webp\" alt=\"\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>The Details</h2>\t\t\t\t\t\t\t\n\t\t\t<figure class='gallery-item'>\n\t\t\t\t<img width=\"300\" height=\"300\" src=\"/media/2026/01/20251002_103119-300x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"300\" height=\"225\" src=\"/media/2026/01/20251026_150437-300x225.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"225\" height=\"300\" src=\"/media/2026/01/20251030_1349062-225x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"225\" height=\"300\" src=\"/media/2026/01/20251101_095158-225x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"300\" height=\"300\" src=\"/media/2026/01/20251119_141940-300x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"225\" height=\"300\" src=\"/media/2026/01/studio_image_7-225x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"300\" height=\"300\" src=\"/media/2026/01/porcelain-centering-300x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure><figure class='gallery-item'>\n\t\t\t\t<img width=\"169\" height=\"300\" src=\"/media/2026/01/PXL_20250801_123617410-169x300.webp\" alt=\"\" decoding=\"async\" />\n\t\t\t</figure>\n\t\t\t\t<p>Located in South Ealing, West London. A short walk from South Ealing Station (Piccadilly Line) and accessible via bus routes 65 and E3. Details and directions provided upon booking.</p>\t\t\t\t\t\t\t\t<a href=\"/classes\">\n\t\t\t\t\t\t\t\t\tExplore Classes\n\t\t\t\t\t</a>\n\t\t\t\t\t\t<p>Have a question? [<u><i><a href=\"/contact me\">Get in touch</a></i></u>]</p>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 124,
+      "type": "page",
+      "title": "About Me",
+      "slug": "about-me",
+      "link": "https://anatpottery.co.uk/about-me/",
+      "date": "2025-12-16 12:56:05",
+      "excerpt": "",
+      "content": "<img width=\"805\" height=\"1024\" src=\"/media/2026/01/Anat-Varon-Moneta-B-805x1024.webp\" alt=\"Anat Varon Moneta working on the potter&apos;s wheel\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h1>The Journey from MBA to Mud</h1>\t\t\t\t\t<h3>Artist, Teacher, and Founder of Anat Handmade Pottery</h3>\t\t<p data-path-to-node=\"6,0\">My love for ceramics started when I was just eight years old. It was a childhood passion that stayed with me, even as I moved into the business world to complete my BSc and MBA. But no matter how far I went in my career, I always found myself drawn back to the potter's wheel. Eventually, I decided to leave the corporate path behind to follow my heart and become a full-time potter.</p><p data-path-to-node=\"6,1\">I studied at the Bezalel Academy of Arts and Design, where I truly learned the craft and technical side of working with clay. During those years of study, I opened my first studio, discovering how much I loved both creating my own pieces and teaching others how to do the same.</p><p data-path-to-node=\"6,2\">Now, I work from my boutique garden studio in West London, creating porcelain and stoneware pieces. My work is all about the details. I love combining the clean lines of wheel-throwing with colourful slips and screen prints that I produce myself.</p><p data-path-to-node=\"6,3\">For me, pottery is a way to slow down and be present. Whether I’m working on a new collection or helping a student during a workshop, my goal is to share the simple, handmade joy that comes from working with clay.</p>\t\t\t<h2>Anat Varon Moneta </h2>\t\t\t\t\t\t\t\t\t\t<a href=\"/the-studio\">\n\t\t\t\t\t\t\t\t\tStep Inside my Studio &gt;\n\t\t\t\t\t</a>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 136,
+      "type": "page",
+      "title": "Classes",
+      "slug": "classes",
+      "link": "https://anatpottery.co.uk/classes/",
+      "date": "2025-12-16 13:11:48",
+      "excerpt": "",
+      "content": "<div class=\"wp-block-group alignfull classes-header has-background\" style=\"background-color:#eeece8;padding-top:0px;padding-bottom:0px\">\n<h1 class=\"wp-block-heading has-text-align-center classes-header-h1\">Pottery Classes &amp; Workshops in West London</h1>\n\n\n\n<p class=\"has-text-align-center classes-header-desc\">Small-group sessions in South Ealing garden studio. Explore the world of clay at your own pace.</p>\n</div>\n\n\n\n<div class=\"wp-block-columns classes-page-content\">\n<div class=\"wp-block-column classes-categories-coloumn\" style=\"flex-basis:20%\">\n[class_sidebar]\n</div>\n\n\n\n<div class=\"wp-block-column classes-cards-coloumn\" style=\"flex-basis:80%\">\n<div class=\"wp-block-query classes-cards-grid\">\n\n<div class=\"wp-block-group\" style=\"padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px\">\n\n\n\n\n\n\n<div class=\"wp-block-columns\">\n<div class=\"wp-block-column\" style=\"padding-top:0;padding-bottom:0;flex-basis:27%\">\n<p class=\"has-text-color has-link-color\" style=\"color:#a3a2a2;margin-top:0px;margin-bottom:0px\">Price</p>\n\n\n\n\n</div>\n\n\n\n<div class=\"wp-block-column\">\n<p class=\"has-text-color has-link-color\" style=\"color:#a3a2a2;margin-top:0px;margin-bottom:0px\">Duration</p>\n\n\n</div>\n</div>\n\n\n</div>\n\n</div>\n</div>\n</div>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 141,
+      "type": "page",
+      "title": "Contact Me",
+      "slug": "contact-me",
+      "link": "https://anatpottery.co.uk/contact-me/",
+      "date": "2025-12-16 13:26:19",
+      "excerpt": "",
+      "content": "<img width=\"768\" height=\"1024\" src=\"/media/2026/01/studio_image_7-768x1024.webp\" alt=\"Step inside Anat&#039;s Studio\" />\t\t\t\t\t\t\t\t\t\t\t\t\t<p data-path-to-node=\"10,1,1,0\"><b data-path-to-node=\"10,1,1,0\" data-index-in-node=\"0\">Studio Hours</b> <em>By appointment only.</em><br /><b data-path-to-node=\"10,1,1,1\" data-index-in-node=\"0\">Location</b> <em>Ealing, London W5.</em></p>\t\t\t<h2>Let’s Create Something Together...</h2>\t\t<p>I’d love to hear from you. Fill out the form below and I’ll get back to you shortly.</p><form id=\"wpforms-form-371\" data-formid=\"371\" method=\"post\" enctype=\"multipart/form-data\" action=\"/wp-admin/admin-ajax.php\" data-token=\"c053a67b4e6a24525c2e83e8ba761bc3\" data-token-time=\"1774990808\"><noscript>Please enable JavaScript in your browser to complete this form.</noscript>Please enable JavaScript in your browser to complete this form.<label for=\"wpforms-371-field_1\">Name *</label><input type=\"text\" id=\"wpforms-371-field_1\" name=\"wpforms[fields][1]\" aria-errormessage=\"wpforms-371-field_1-error\" required><label for=\"wpforms-371-field_2\">Email *</label><input type=\"email\" id=\"wpforms-371-field_2\" name=\"wpforms[fields][2]\" spellcheck=\"false\" aria-errormessage=\"wpforms-371-field_2-error\" required><label for=\"wpforms-371-field_4\">How can I help you?</label><select id=\"wpforms-371-field_4\" name=\"wpforms[fields][4]\"><option value=\"General Question / Studio Visit\"   >General Question / Studio Visit</option><option value=\"I&#039;m interested in a class\"   >I'm interested in a class</option><option value=\"I&#039;m interested in purchasing pottery\"   >I'm interested in purchasing pottery</option></select><label for=\"wpforms-371-field_3\">Your Message</label><textarea id=\"wpforms-371-field_3\" name=\"wpforms[fields][3]\" aria-errormessage=\"wpforms-371-field_3-error\" ></textarea><!-- .wpforms-field-container --><input type=\"hidden\" name=\"wpforms[id]\" value=\"371\">\t\t\t<input\n\t\t\t\ttype=\"hidden\"\n\t\t\t\tname=\"wpforms[nonce]\"\n\t\t\t\tvalue=\"cd0ea04170\"\n\t\t\t/>\n\t\t\t<input type=\"hidden\" name=\"page_title\" value=\"{page_title}\"><input type=\"hidden\" name=\"page_url\" value=\"http://page_url\"><input type=\"hidden\" name=\"url_referer\" value=\"http://url_referer\"><button type=\"submit\" name=\"wpforms[submit]\" id=\"wpforms-submit-371\" data-alt-text=\"Sending...\" data-submit-text=\"Submit\" aria-live=\"assertive\" value=\"wpforms-submit\">Submit</button><img src=\"https://anatpottery.co.uk/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg\" style=\"display: none;\" width=\"26\" height=\"26\" alt=\"Loading\"></form>  <!-- .wpforms-container -->\t\t\t\t\t\n\t\t\t\t\t\t\t<h2>Good to Know</h2>\t\t\t\t\t\t\t\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4880\" >\n\t\t\t\t<summary data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4880\" >\n\t\t\t\t\t I’ve never touched clay before; is that okay? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Absolutely. All workshops are designed for beginners, focusing on the joy of the process. <b data-path-to-node=\"5\" data-index-in-node=\"151\">A small tip:</b> working with clay is easier with shorter nails, and I recommend leaving rings or bracelets at home.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4881\" >\n\t\t\t\t<summary data-accordion-index=\"2\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4881\" >\n\t\t\t\t\t What should I wear to class? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Comfortable clothes and shoes you don’t mind getting dusty. Clay washes out easily, but aprons are provided for all sessions.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4882\" >\n\t\t\t\t<summary data-accordion-index=\"3\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4882\" >\n\t\t\t\t\t Where is the studio located? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>My garden studio is in <b data-path-to-node=\"8\" data-index-in-node=\"67\">South Ealing, London W5</b>. A short walk from <b data-path-to-node=\"8\" data-index-in-node=\"126\">South Ealing Station and Northfields Station</b> (Piccadilly Line) and well-served by the <b data-path-to-node=\"8\" data-index-in-node=\"188\">65, E2 and E3 buses</b>. The full address and arrival instructions will be sent once your booking is confirmed.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4883\" >\n\t\t\t\t<summary data-accordion-index=\"4\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4883\" >\n\t\t\t\t\t Can I book a class as a gift? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Yes! Please mention this in your message and I can provide a digital or physical gift voucher for the recipient.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4884\" >\n\t\t\t\t<summary data-accordion-index=\"5\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4884\" >\n\t\t\t\t\t When can I collect my pots? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Pottery is a slow craft; pieces need to dry thoroughly before their two firings. Your work will typically be ready in <b data-path-to-node=\"11\" data-index-in-node=\"161\">3–4 weeks</b>. Because my studio has limited storage space, I can only hold finished pieces for <b style=\"font-style: inherit;\" data-path-to-node=\"11\" data-index-in-node=\"256\">2 months</b>. After this time, uncollected work may be re-homed or recycled.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4885\" >\n\t\t\t\t<summary data-accordion-index=\"6\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4885\" >\n\t\t\t\t\t What is your booking and cancellation policy? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>If you can’t make it to your session, just let me know as soon as possible. We can easily reschedule you to a different date or arrange a make-up session so you don&#8217;t miss out on the clay. If you&#8217;d prefer a refund, I&#8217;m happy to provide one up to 48 hours before the class.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-4886\" >\n\t\t\t\t<summary data-accordion-index=\"7\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-4886\" >\n\t\t\t\t\t Do you ship pottery? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>If you are visiting from outside London and cannot collect your pieces, I am happy to arrange shipping for an additional fee to cover safe packaging and postage.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t<p>Absolutely. All workshops are designed for beginners, focusing on the joy of the process. <b data-path-to-node=\"5\" data-index-in-node=\"151\">A small tip:</b> working with clay is easier with shorter nails, and I recommend leaving rings or bracelets at home.</p><p>Comfortable clothes and shoes you don’t mind getting dusty. Clay washes out easily, but aprons are provided for all sessions.</p><p>My garden studio is in <b data-path-to-node=\"8\" data-index-in-node=\"67\">South Ealing, London W5</b>. A short walk from <b data-path-to-node=\"8\" data-index-in-node=\"126\">South Ealing Station and Northfields Station</b> (Piccadilly Line) and well-served by the <b data-path-to-node=\"8\" data-index-in-node=\"188\">65, E2 and E3 buses</b>. The full address and arrival instructions will be sent once your booking is confirmed.</p><p>Yes! Please mention this in your message and I can provide a digital or physical gift voucher for the recipient.</p><p>Pottery is a slow craft; pieces need to dry thoroughly before their two firings. Your work will typically be ready in <b data-path-to-node=\"11\" data-index-in-node=\"161\">3–4 weeks</b>. Because my studio has limited storage space, I can only hold finished pieces for <b style=\"font-style: inherit;\" data-path-to-node=\"11\" data-index-in-node=\"256\">2 months</b>. After this time, uncollected work may be re-homed or recycled.</p><p>If you can’t make it to your session, just let me know as soon as possible. We can easily reschedule you to a different date or arrange a make-up session so you don't miss out on the clay. If you'd prefer a refund, I'm happy to provide one up to 48 hours before the class.</p><p>If you are visiting from outside London and cannot collect your pieces, I am happy to arrange shipping for an additional fee to cover safe packaging and postage.</p>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 866,
+      "type": "page",
+      "title": "404",
+      "slug": "oops",
+      "link": "https://anatpottery.co.uk/oops/",
+      "date": "2026-01-30 14:20:36",
+      "excerpt": "",
+      "content": "<h1>We can't find the piece you're looking for.</h1>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"1024\" height=\"1024\" src=\"/media/2026/01/Gemini_Generated_Image_cxp8slcxp8slcxp8-1024x1024.webp\" alt=\"404 page - broken pots\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>The page you are looking for doesn't exist. Don't worry, let's get you back to potting.</h2>\t\t\t\t\t\t\t\t\t\t<a href=\"/\">\n\t\t\t\t\t\t\t\t\tBack to Home Page\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/classes\">\n\t\t\t\t\t\t\t\t\tView Pottery Classes\n\t\t\t\t\t</a>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 926,
+      "type": "page",
+      "title": "FAQ",
+      "slug": "faq",
+      "link": "https://anatpottery.co.uk/faq/",
+      "date": "2026-02-02 14:49:47",
+      "excerpt": "",
+      "content": "<h2>Good to Know</h2>\t\t\t\t\t\t\t\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1080\" >\n\t\t\t\t<summary data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1080\" >\n\t\t\t\t\t I’ve never touched clay before; is that okay? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Absolutely. All workshops are designed for beginners, focusing on the joy of the process. <b data-path-to-node=\"5\" data-index-in-node=\"151\">A small tip:</b> working with clay is easier with shorter nails, and I recommend leaving rings or bracelets at home.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1081\" >\n\t\t\t\t<summary data-accordion-index=\"2\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1081\" >\n\t\t\t\t\t What should I wear to class? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Comfortable clothes and shoes you don’t mind getting dusty. Clay washes out easily, but aprons are provided for all sessions.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1082\" >\n\t\t\t\t<summary data-accordion-index=\"3\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1082\" >\n\t\t\t\t\t Where is the studio located? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>My garden studio is in <b data-path-to-node=\"8\" data-index-in-node=\"67\">South Ealing, London W5</b>. A short walk from <b data-path-to-node=\"8\" data-index-in-node=\"126\">South Ealing Station and Northfields Station</b> (Piccadilly Line) and well-served by the <b data-path-to-node=\"8\" data-index-in-node=\"188\">65, E2 and E3 buses</b>. The full address and arrival instructions will be sent once your booking is confirmed.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1083\" >\n\t\t\t\t<summary data-accordion-index=\"4\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1083\" >\n\t\t\t\t\t Can I book a class as a gift? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Yes! Please mention this in your message and I can provide a digital or physical gift voucher for the recipient.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1084\" >\n\t\t\t\t<summary data-accordion-index=\"5\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1084\" >\n\t\t\t\t\t When can I collect my pots? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>Pottery is a slow craft; pieces need to dry thoroughly before their two firings. Your work will typically be ready in <b data-path-to-node=\"11\" data-index-in-node=\"161\">3–4 weeks</b>. Because my studio has limited storage space, I can only hold finished pieces for <b style=\"font-style: inherit;\" data-path-to-node=\"11\" data-index-in-node=\"256\">2 months</b>. After this time, uncollected work may be re-homed or recycled.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1085\" >\n\t\t\t\t<summary data-accordion-index=\"6\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1085\" >\n\t\t\t\t\t What is your booking and cancellation policy? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>If you can’t make it to your session, just let me know as soon as possible. We can easily reschedule you to a different date or arrange a make-up session so you don&#8217;t miss out on the clay. If you&#8217;d prefer a refund, I&#8217;m happy to provide one up to 48 hours before the class.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1086\" >\n\t\t\t\t<summary data-accordion-index=\"7\" tabindex=\"-1\" aria-expanded=\"false\" aria-controls=\"e-n-accordion-item-1086\" >\n\t\t\t\t\t Do you ship pottery? \n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t<svg aria-hidden=\"true\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z\"></path></svg>\n\t\t\t\t\t\t</summary>\n\t\t\t\t\t\t\t\t\t<p>If you are visiting from outside London and cannot collect your pieces, I am happy to arrange shipping for an additional fee to cover safe packaging and postage.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t\t</details>\n\t\t\t\t\t<p>Absolutely. All workshops are designed for beginners, focusing on the joy of the process. <b data-path-to-node=\"5\" data-index-in-node=\"151\">A small tip:</b> working with clay is easier with shorter nails, and I recommend leaving rings or bracelets at home.</p><p>Comfortable clothes and shoes you don’t mind getting dusty. Clay washes out easily, but aprons are provided for all sessions.</p><p>My garden studio is in <b data-path-to-node=\"8\" data-index-in-node=\"67\">South Ealing, London W5</b>. A short walk from <b data-path-to-node=\"8\" data-index-in-node=\"126\">South Ealing Station and Northfields Station</b> (Piccadilly Line) and well-served by the <b data-path-to-node=\"8\" data-index-in-node=\"188\">65, E2 and E3 buses</b>. The full address and arrival instructions will be sent once your booking is confirmed.</p><p>Yes! Please mention this in your message and I can provide a digital or physical gift voucher for the recipient.</p><p>Pottery is a slow craft; pieces need to dry thoroughly before their two firings. Your work will typically be ready in <b data-path-to-node=\"11\" data-index-in-node=\"161\">3–4 weeks</b>. Because my studio has limited storage space, I can only hold finished pieces for <b style=\"font-style: inherit;\" data-path-to-node=\"11\" data-index-in-node=\"256\">2 months</b>. After this time, uncollected work may be re-homed or recycled.</p><p>If you can’t make it to your session, just let me know as soon as possible. We can easily reschedule you to a different date or arrange a make-up session so you don't miss out on the clay. If you'd prefer a refund, I'm happy to provide one up to 48 hours before the class.</p><p>If you are visiting from outside London and cannot collect your pieces, I am happy to arrange shipping for an additional fee to cover safe packaging and postage.</p>",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 1001,
+      "type": "page",
+      "title": "Journal",
+      "slug": "journal",
+      "link": "https://anatpottery.co.uk/journal/",
+      "date": "2026-03-04 14:44:57",
+      "excerpt": "",
+      "content": "",
+      "image": null,
+      "categories": [],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 1013,
+      "type": "page",
+      "title": "Thank you",
+      "slug": "thank-you",
+      "link": "https://anatpottery.co.uk/thank-you/",
+      "date": "2026-03-15 18:03:29",
+      "excerpt": "",
+      "content": "<h1>Your journey with clay begins now!</h1>\t\t\t\t\t<h2>I’ve received your message!</h2>\t\t<p data-path-to-node=\"9,2,1,1\">I’ve received your enquiry and I’m so looking forward to welcoming you into the studio. There is something truly special about the process of working with clay, and I can't wait to share that with you.</p><p data-path-to-node=\"9,2,1,2\">I am currently looking at the studio diary and will reply to your email within <b data-path-to-node=\"9,2,1,2\" data-index-in-node=\"79\">24 hours</b> so we can find the perfect time for your session.</p><p data-path-to-node=\"9,2,1,3\">Speak soon,</p><p>Anat</p>\t\t\t<h2>See what's happening in the studio</h2>\t\t[instagram-feed feed=1]",
+      "image": null,
+      "categories": [],
+      "seoTitle": "Thank You | Anat Handmade Pottery",
+      "seoDescription": "Thank you for contacting Anat Handmade Pottery. I look forward to welcoming you to my garden studio in South Ealing soon!"
+    }
+  ],
+  "posts": [
+    {
+      "id": 986,
+      "type": "post",
+      "title": "Student Spotlight: A 4-Week Wheel Throwing Journey",
+      "slug": "student-spotlight-a-4-week-wheel-throwing-journey",
+      "link": "https://anatpottery.co.uk/student-spotlight-a-4-week-wheel-throwing-journey/",
+      "date": "2026-03-04 14:48:18",
+      "excerpt": "",
+      "content": "<p>I often get asked, <em>\"Can I really make something I’d actually use in just four weeks?\"</em> The answer is a resounding yes.</p>\n\n\n\n<p>Today, I'm sharing the journey of one of my recent students, Natalie, who joined my <strong>Throwing Journey for Adults</strong>. Over the course of four sessions, she went from learning how to center a ball of clay to taking home a set of custom-illustrated bowls. Here is a look at her process from start to finish.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Week 1 &amp; 2: Finding the Form</h2>\n\n\n\n<p>The journey always begins on the wheel. The first few sessions are all about \"centering\" - getting the clay to cooperate with your hands.</p>\n\n\n\n<p>In this photo from the start of the course, you can see the focus required to pull the walls of the bowl up. It’s a delicate balance of strength and gentleness.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/03/student-centering-and-forming-clay-pottery-wheel-edited-1024x1024.webp\" alt=\"student centering and forming clay pottery wheel\" class=\"wp-image-993\" style=\"object-fit:cover;width:600px;height:600px\"/><figcaption class=\"wp-element-caption\">Finding the center and pulling the first walls.</figcaption></figure>\n\n\n\n<p>Once the clay has dried to a \"leather hard\" state (usually by the next session), we move to <strong>trimming</strong>. This is where we carve away the excess clay to reveal the elegant shape underneath and create a foot ring. It’s often the most satisfying part of the process - watching the ribbons of clay fly off!</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/03/trimming-pottery-bowl-base-ealing-edited.webp\" alt=\"\" class=\"wp-image-996\" style=\"object-fit:cover;width:600px;height:600px\"/><figcaption class=\"wp-element-caption\"><em>Trimming the base to refine the shape and weight of the bowl</em>.</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Week 3: Adding Personality</strong></h2>\n\n\n\n<p>Once the form is finalized, the wheel stops, and the creativity really begins. Natalie chose to hand-paint a delicate tiger design using underglazes. This stage is where a simple clay bowl becomes <em>your</em> bowl.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/03/hand-painting-tiger-design-underglaze-edited-2.webp\" alt=\"hand painting tiger design underglaze\" class=\"wp-image-1008\" style=\"object-fit:cover;width:600px;height:600px\"/><figcaption class=\"wp-element-caption\"><em>Hand-painting the tiger illustrations before the final firing.</em></figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Week 4 - <strong>The Final Transformation (Glazing)</strong></h2>\n\n\n\n<p>The final session of the Throwing Journey is dedicated to glazing. After the pieces have been through their first \"bisque\" firing, the student returns to apply the glazes. This is where the student applies what will turn out to be the shiny glassy coat of their work. Usually, they will apply a clear glaze to allow the natural beauty of the clay and their earlier decorations to shine through.</p>\n\n\n\n<p id=\"p-rc_76caf867b11fa631-133\">Once glazed, the pieces head back into the kiln for one last high-temperature firing. After the transformation will be complete, these unique, handmade pieces will be ready for their new home.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>The Final Result</strong></h2>\n\n\n\n<p>After the final glaze firing, the colours pop, the clay turns to stone, and the piece is ready for the kitchen. Here are the finished pieces: a beautiful set of bowls with a whimsical tiger pattern. They are food-safe, dishwasher-safe, and completely unique.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/03/finished-handmade-tiger-pattern-bowls-1024x768.webp\" alt=\"finished handmade tiger pattern bowls\" class=\"wp-image-987\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\"><em>The finished result - fresh out of the kiln and ready for serving</em></figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Start Your Own Journey</strong></h2>\n\n\n\n<p>You don’t need to consider yourself an \"artist\" to create something beautiful. You just need to show up and get your hands dirty. Book your spot in the <strong>Throwing Journey for Adults</strong> :</p>\n\n\n\n<div class=\"wp-block-buttons\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"/classes/a-throwing-journey-for-adults/\">View Class Details &amp; Book Here</a></div>\n</div>\n\n\n\n<p></p>",
+      "image": {
+        "title": "student-painting-tiger-pottery",
+        "alt": "student painting tiger pattern on pottery",
+        "url": "/media/2026/03/20251115_105531.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "category",
+          "slug": "student-stories",
+          "name": "Student Stories"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": ""
+    },
+    {
+      "id": 1052,
+      "type": "post",
+      "title": "The Journey of a Mug: From Raw Clay to Your Morning Coffee",
+      "slug": "throwing-journey-of-a-mug",
+      "link": "https://anatpottery.co.uk/throwing-journey-of-a-mug/",
+      "date": "2026-04-23 19:54:15",
+      "excerpt": "",
+      "content": "<p id=\"p-rc_930506b1d7c81ed1-192\">Working with clay is a lesson in patience and transformation. Each mug that leaves my garden studio in Ealing is part of a larger Throwing Journey. It begins as a humble lump of clay and undergoes a multi-stage journey before it ever reaches your hands. </p>\n\n\n\n<p id=\"p-rc_930506b1d7c81ed1-192\">Because the process involves drying stages and two separate kiln firings, a finished mug takes a few weeks to complete.</p>\n\n\n\n<p>Here is a behind-the-scenes look at how a mug comes to life at my studio.</p>\n\n\n\n<h3 class=\"wp-block-heading\">1. Preparing the Foundation</h3>\n\n\n\n<p>Every piece starts with <strong>wedging</strong>. This is the process of kneading the clay to remove air bubbles and ensure an even consistency. Without proper wedging, a pot can crack in the kiln.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/04/1-wedged-clay-1024x1024.webp\" alt=\"A hand-wedged lump of raw clay getting ready for the throwing journey on the potter's wheel in a South Ealing studio.\" class=\"wp-image-1053\" style=\"object-fit:cover;width:600px;height:auto\"/><figcaption class=\"wp-element-caption\">A hand-wedged lump of raw clay</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">2. At the Potter’s Wheel</h3>\n\n\n\n<p>Once the clay is prepared, it’s time to find a rhythm at the wheel. I center the clay and pull the walls upward to create the <strong>thrown pot</strong>. At this stage, the clay is still soft and \"wet\", full of potential but very delicate.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/04/2-thrown-pots-1024x1024.webp\" alt=\"Freshly thrown ceramic mugs drying on a wooden board at Anat Handmade Pottery.\" class=\"wp-image-1055\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\">Freshly thrown ceramic mugs drying on wooden bats</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">3. Refining the Form: Trimming</h3>\n\n\n\n<p>After the pot has dried to a \"leather-hard\" state, I return it to the wheel for <strong>trimming</strong>. This is where I carve away excess clay from the bottom and create a foot ring, giving the mug a refined shape and a lighter feel.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/04/3.1-trimming-1024x1024.webp\" alt=\"Anat trimming the base of a leather-hard ceramic mug on the potter's wheel.\" class=\"wp-image-1060\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\">trimming the base of a mug</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">4. The Art of the Handle</h3>\n\n\n\n<p>Handles are <strong>pulled</strong> by hand to ensure they are esthetic, uniform and comfortable to hold. Once shaped, they must rest and dry slightly until they match the moisture level of the mug body.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"/media/2026/04/4-pulled-handles.webp\" alt=\"Hand-pulled clay handles resting on a studio workbench before being attached to mugs.\" class=\"wp-image-1062\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\">Hand-pulled handles resting before being attached to mugs.</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">5. Bringing it Together</h3>\n\n\n\n<p><strong>Attaching the handle</strong> is a precise task. I \"score and slip\" both surfaces: scratching the clay and adding liquid clay \"glue\" to create a permanent bond that will survive drying process and the intense heat of the kiln.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"/media/2026/04/5-attaching-handles.webp\" alt=\"Attaching a handmade clay handle to a ceramic mug.\" class=\"wp-image-1064\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\">Attaching a clay handle to a ceramic mug.</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">6. Adding Character: Surface Decoration</h3>\n\n\n\n<p>Now for the creative details. Using brushes and sponges, I apply <strong>surface decoration</strong>. This is where the mug begins to take on its unique personality through color and texture.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large\"><img src=\"/media/2026/04/6.2-surface-decoration-1024x769.webp\" alt=\"Applying colorful underglazes and to a handmade pottery mug using a brush and sponge.\" class=\"wp-image-1065\"/><figcaption class=\"wp-element-caption\">Applying colorful underglazes to the mug.</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">7. The Final Transformation: Fire and Shrinkage</h3>\n\n\n\n<p>The most surprising part of the journey is the final result. Pottery undergoes a massive physical change during firing. You can clearly see the <strong>shrinkage</strong> when comparing a raw clay mug to a finished, fired piece. The heat draws out every last drop of moisture and vitrifies the clay into a durable, functional piece of art.</p>\n\n\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"/media/2026/04/7-final-results-showing-shrinkage-1024x829.webp\" alt=\"Comparison of a raw clay mug and a fired ceramic mug showing natural clay shrinkage. The end of the Throwing Journey.\" class=\"wp-image-1066\" style=\"width:600px\"/><figcaption class=\"wp-element-caption\">Comparison of a raw clay mug and a fired ceramic mug showing clay shrinkage.</figcaption></figure>\n\n\n\n<h3 class=\"wp-block-heading\">Master the Entire Process </h3>\n\n\n\n<p>Because a single session isn't enough to see a mug through from raw clay to a finished, glazed piece, I invite you to join me for a complete <strong>Throwing Journey</strong>. The reason why I call my 4-week course a <strong>'Throwing Journey'</strong> is because you are traveling through every stage of the clay's life, from the wheel to the final firing.</p>\n\n\n\n<p id=\"p-rc_eb02913b1a302aae-205\">In this 4-week 1:1 private course, you will move through every stage featured in this post: from the first wedge of clay to the final glazing process.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Duration:</strong> 4 Sessions (2.5 Hours each) </li>\n\n\n\n<li><strong>Cost:</strong> £320 (Private 1:1 tuition) </li>\n\n\n\n<li><strong>Location:</strong> South Ealing garden studio </li>\n</ul>\n\n\n\n<div class=\"wp-block-buttons\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://anatpottery.co.uk/classes/a-throwing-journey-for-adults/\">Start Your Throwing Journey</a></div>\n</div>\n\n\n\n<p></p>",
+      "image": {
+        "title": "7-final results showing shrinkage-feature image",
+        "alt": "Throwing Journey of a mug - pottery course in Ealing",
+        "url": "/media/2026/04/7-final-results-showing-shrinkage-feature-image.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "category",
+          "slug": "the-process",
+          "name": "The Process"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "\"Ever wondered how a lump of clay becomes a mug? Follow the 4-week journey at Anat Handmade Pottery in Ealing and join the Throwing Journey course.\""
+    }
+  ],
+  "products": [
+    {
+      "id": 103,
+      "type": "product",
+      "title": "Snack Set with Wooden Serving Tray",
+      "slug": "handmade-ceramic-snack-set-with-wooden-serving-tray",
+      "link": "https://anatpottery.co.uk/product/handmade-ceramic-snack-set-with-wooden-serving-tray/",
+      "date": "2025-12-16 12:36:16",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nA handcrafted stoneware snack set, complete with a beautifully paired wooden serving tray. This elegant combination is perfect for serving dips, nuts, or small tapas dishes when entertaining. Individually wheel-thrown and finished in my Ealing studio, making it completely unique.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "This charming set includes a natural Acacia wood tray and two small stoneware pots, making it a versatile addition to your dining Table. Perfect for serving tapas, dips, sauces, or small snacks.\n\n[ Please note: Cleaning the tray is done by wiping with a clean, damp cloth if necessary. It can't be washed in water or dishwasher. DO NOT scrub. ]\n\n<span style=\"text-decoration: underline;\">Approximate Dimensions :</span>\nTray : 16 L x 7.6 W x 1.5 H cm\nEach Pot : 6.8 W x 5.2 H cm\n\nKey Features:\n● Materials: High-fired Stoneware with a Glossy Transparent Glaze over the interior.\n● Design: The exterior is decorated with a black floral print set upon the natural colour of the clay + brushed Turquoise Underglaze.\n● Internal Colours: natural colour of the clay\n● Durability: Pots are dishwasher Safe and made for daily use.\n\n<span style=\"text-decoration: underline;\">Please note:</span>\n● Actual colours may vary slightly due to lighting and screen settings.\n● Pots are dishwasher and microwave safe.\nCleaning the tray is done by wiping with a clean, damp cloth if necessary. It can't be washed in water or dishwasher. DO NOT scrub.\n● All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "Handmade Ceramic Snack Set with Wooden Serving Tray",
+        "alt": "Handmade Ceramic Snack Set with Wooden Serving Tray",
+        "url": "/media/2026/02/20251208_112901.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "serving-trays",
+          "name": "Serving Trays"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 259,
+      "type": "product",
+      "title": "Ring holder Stand - Small Jewelry Dish Tray",
+      "slug": "ring-holder-stand-small-jewelry-dish-tray",
+      "link": "https://anatpottery.co.uk/product/ring-holder-stand-small-jewelry-dish-tray/",
+      "date": "2026-01-06 14:05:35",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nA charming and delicate handcrafted stoneware ring holder and jewellery dish. Beautifully designed to keep your ring and small treasures safe on a bedside table or by the sink. Individually thrown and finished in my Ealing studio, making it a perfect, unique gift.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "This handmade Pottery Ring Holder and jewlery dish is perfect as a gift for a loved one or a treat for yourself.\nElevate your jewelry display and organization. The shape of the dish holds your precious ring, ensuring it is displayed with grace and keeping it easily accessible.\n\n***\n<em>The ring holder is designed to comfortably hold between 1–3 rings, depending on ring size and style. Please check the photos to understand its scale.</em>\n<em>The ring holder is sold on its own. Any jewellery shown in the photos is for display purposes only and is not included.</em>\n***\n\nThis item is shaped from white stoneware clay on a pottery wheel. It's printed with handmade black floral prints. As a final touch, it was applied with two shiny glazes – one clear and the other in a calming ocean colour.\n\n<span style=\"text-decoration: underline;\">Dimensions (approximately):</span>\n\nHeight: 5 cm\nwidth: 10 cm\n\n∙ <strong>Please note</strong> that all products are handmade, therefore they might have small imperfections / differences in shape, size and colour. This is what makes them unique and one of a kind.",
+      "image": {
+        "title": "Ring holder display | Small Jewelry Dish Stand Tray",
+        "alt": "Ring holder display - Small Jewelry Dish Stand Tray",
+        "url": "/media/2026/02/20251208_112558.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "jewlery-dish",
+          "name": "Jewlery Dish"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 759,
+      "type": "product",
+      "title": "Oval Serving Plate with Mini Dish",
+      "slug": "oval-serving-plate-with-mini-dish",
+      "link": "https://anatpottery.co.uk/product/oval-serving-plate-with-mini-dish/",
+      "date": "2026-01-22 14:26:34",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nAn elegant handcrafted porcelain serving set, featuring a beautifully shaped oval plate and a matching mini dish. Designed with both beauty and utility in mind, it is perfect for serving appetizers, bread and oil, or cheese and chutneys. Individually wheel-thrown and finished in my Ealing studio.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "Handmade Porcelain Plate Set with Coordinating mini dish.\nThis elegant set includes a white porcelain serving plate with a delicate black floral print and a coordinating mini dish, making it a versatile addition to your kitchenware. Perfect for serving appetizers, desserts, or small snacks.\n\nThe serving plate is crafted from white porcelain clay and is beautifully printed with handmade black floral print, Finished with a glossy clear glaze. The coordinating mini dish is available in two stunning glaze options: deep sea foam green or smoky blue-grey.\n\n<strong><span style=\"text-decoration: underline;\">Dimensions (approximately):</span></strong>\nPlate Length: 19.5 - 20 cm\nPlate Width: 14.5 - 15 cm\nMini dish Width: 6.5 cm\nMini dish Height: 2 - 3 cm\n\n<span style=\"text-decoration: underline;\"><strong>Please Note</strong></span>\n<em>∙ Dishwasher and microwave safe</em>\n<em>∙ Please note that all products are handmade, therefore they might have small imperfections / differences in shape, size and colour. This is what makes them unique and one of a kind.</em>",
+      "image": {
+        "title": "handmade porcelain serving tray",
+        "alt": "handmade porcelain serving tray",
+        "url": "/media/2026/01/20250114_090641.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "serving-trays",
+          "name": "Serving Trays"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 761,
+      "type": "product",
+      "title": "Mini porcelain decorative flower bottle vase",
+      "slug": "mini-porcelain-decorative-flower-bottle-vase",
+      "link": "https://anatpottery.co.uk/product/mini-porcelain-decorative-flower-bottle-vase/",
+      "date": "2026-01-22 14:38:16",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nA delicate and elegant porcelain bud vase, beautifully designed for displaying a single favorite bloom or wildflower. Individually handcrafted in my Ealing studio, its fine finish makes it a gorgeous decorative statement on its own or grouped as a collection.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "This mini bottle would make an excellent gift idea or decoration for your home.\nAvailable in a variety of colours, so you can mix and match.\n\nAll bottles measure between 3.5 - 5 cm wide and 5.5 to 7.5 cm high.\n(*all dimensions are approximate)\n\nThe porcelain bottle was thrown on the potter's wheel. Its neck is coloured with underglaze, and its body is decorated with a floral print. Lastly, it was glazed with a clear shiny glaze.\n\n<span style=\"text-decoration: underline;\"><strong>Please Note</strong></span>\n<em>∙All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. This is what makes them unique and one of a kind.</em>",
+      "image": {
+        "title": "mini porcelain bottle",
+        "alt": "mini porcelain bottle by Anat Varon Moneta",
+        "url": "/media/2026/01/1-scaled.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "vases",
+          "name": "Vases"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 918,
+      "type": "product",
+      "title": "Porcelain lidded jar with floral print and coloured lid",
+      "slug": "porcelain-lidded-jar-with-floral-print-and-coloured-lid-handmade-ceramic-lidded-container",
+      "link": "https://anatpottery.co.uk/product/porcelain-lidded-jar-with-floral-print-and-coloured-lid-handmade-ceramic-lidded-container/",
+      "date": "2026-02-02 13:43:21",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nAn elegant, fine porcelain lidded jar featuring a delicate floral print and a beautifully colored lid. Perfect as a decorative statement piece or for storing small treasures. Individually handcrafted and finished in my Ealing studio, each container is entirely unique.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "Elevate your living space with this Handmade Porcelain Lidded Jar – a blend of artistic design and practical functionality.\n\nCrafted using traditional wheel-throwing techniques. Made from porcelain clay.\nThe lid is coated with a captivating ocean colour glaze. The body is printed with intricate floral prints and coated with shiny clear glaze that is food safe and non-toxic.\n\nPlease note that the lid is not airtight when fitted.\n\n<strong><span style=\"text-decoration: underline;\">Dimentions (approximately):</span></strong>\n\nTotal height with lid: 12 cm\nHeight without lid: 9 cm\nwidth: 9 cm\n\n<span style=\"text-decoration: underline;\"><strong>Please Note</strong></span>\n\n∙ Dishwasher and microwave safe\n<em>∙All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. This is what makes them unique and one of a kind.</em>",
+      "image": {
+        "title": "Porcelain lidded jar by Anat Varon Moneta",
+        "alt": "Porcelain lidded jar with floral print and glazed lid",
+        "url": "/media/2026/02/20250114_101514.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "lidded-container",
+          "name": "Lidded Container"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 922,
+      "type": "product",
+      "title": "Two-Handled Floral Snack Bowl",
+      "slug": "two-handled-floral-snack-bowl",
+      "link": "https://anatpottery.co.uk/product/two-handled-floral-snack-bowl/",
+      "date": "2026-02-02 13:59:33",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nA charming handcrafted stoneware bowl featuring two handles and a delicate floral print. Perfect for serving snacks or dips. Individually wheel-throw, decorated and glazed in my Ealing studio, making each piece unique.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "A charming and versatile handmade stoneware bowl perfect for snacks, tapas or dips. Crafted on the pottery wheels, this small, two-handled dish offers both modern style and everyday durability.\n\n<span style=\"text-decoration: underline;\"><strong>Dimensions:</strong></span>\nApproximate Diameter: 11.5 cm\nApproximate Height: 4 cm\n\n<span style=\"text-decoration: underline;\"><strong>Key Features:</strong></span>\n● Materials: High-fired Stoneware with a Glossy Transparent Glaze over the interior.\n● Design: Features a black Underglaze handmade Floral Print. The exterior is natural clay colour for a lovely contrast.\n● Internal Colours: Buttercup Yellow / Turquoise / Pink\n● Durability: Dishwasher Safe and made for daily use.\n\n<span style=\"text-decoration: underline;\">Please note:</span>\n● Actual colours may vary slightly due to lighting and screen settings.\n● Pots are dishwasher and microwave safe.\n● All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "two handled small snack bowl",
+        "alt": "two handled small snack bowl",
+        "url": "/media/2026/02/3.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "bowls",
+          "name": "Bowls"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 924,
+      "type": "product",
+      "title": "Floral Coffee Tea Mug",
+      "slug": "floral-coffee-tea-mug",
+      "link": "https://anatpottery.co.uk/product/floral-coffee-tea-mug/",
+      "date": "2026-02-02 14:05:40",
+      "excerpt": "<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nA beautifully handcrafted stoneware mug featuring a delicate floral print. Perfect for your morning coffee or afternoon tea. Each piece is individually thrown, decorated &amp; glazed in my Ealing studio, making it completely unique.\n\nFor full details please see the information below.\n\n</div>",
+      "content": "The mug is handmade out of ceramic stoneware using the pottery wheel.\nIt is decorated with underglazes and printed with handmade floral prints\nand coated with shiny clear glaze that is food safe and non-toxic.\n\n<span style=\"text-decoration: underline;\"><strong>Dimensions:</strong></span>\n\nApproximate Height: 7.5cm\nApproximate Diameter: 9cm\n\n<span style=\"text-decoration: underline;\"><strong>Key Features:</strong></span>\n●This mug has a capacity of approximately 300ml.\n<span style=\"font-size: 16px;\">●Materials: High-fired Stoneware with a Glossy Transparent Glaze.\n</span>● Design: The exterior features a black Underglaze handmade Floral Print with light blue and pink colour strokes.\nThe interior is natural clay colour for a lovely contrast.\n● Durability: Dishwasher Safe and made for daily use.\n\n<span style=\"text-decoration: underline;\">Please note:</span>\n● Actual colours may vary slightly due to lighting and screen settings.\n● Pots are dishwasher and microwave safe.\n● All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "Floral Mug By Anat Varon Moneta",
+        "alt": "Floral Coffee Tea Mug",
+        "url": "/media/2026/02/20241118_1358142.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "mugs",
+          "name": "Mugs"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 1089,
+      "type": "product",
+      "title": "Dessert Plate",
+      "slug": "dessert-plate",
+      "link": "https://anatpottery.co.uk/product/dessert-plate/",
+      "date": "2026-07-10 16:11:27",
+      "excerpt": "<div class=\"woocommerce-product-details__short-description\">\n<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nFor full details please see the information below.\n\n</div>\n</div>\n<div>\n<div class=\"anat-share-container\"></div>\n</div>",
+      "content": "A beautiful handmade stoneware plate is a perfect piece of functional art. Its size makes it an excellent choice for a thoughtful gift: use it as a ring dish by the sink, a trinket dish on a dresser, or a small plate for dessert or tea bag.\n\n<span style=\"text-decoration: underline;\">Key Features:</span>\n● Materials: wheel thrown stoneware with a glossy transparent glaze over the interior.\n● Design: The plate has a two tone look with a deep, glossy midnight-blue rim. The center showcases the natural color of the stoneware clay.\n● Decoration: A delicate turquoise colour floral print adds a botanical detail to the natural clay center. The entire dish is sealed with a shiny transparent glaze for a durable finish.\n● Durability: Dishwasher Safe and made for daily use.\n\n● <span style=\"text-decoration: underline;\">Dimensions</span>:\nApproximate Diameter: 12.5 cm\nApproximate Height: 1 cm\n\n<span style=\"text-decoration: underline;\">Please note:</span>\n● This listing is for the plate only. Any mugs, spoons, food, or other props shown in the photos are for staging and size reference and are not included with your purchase.\n● Actual colours may vary slightly due to lighting and screen settings.\n● Items are dishwasher and microwave safe\n● All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "small dessert plate",
+        "alt": "small dessert plate stoneware handmade",
+        "url": "/media/2026/07/20251010_160353.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "plates",
+          "name": "Plates"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 1091,
+      "type": "product",
+      "title": "Marbled Porcelain Trinket Box",
+      "slug": "marbled-porcelain-trinket-box",
+      "link": "https://anatpottery.co.uk/product/marbled-porcelain-trinket-box/",
+      "date": "2026-07-10 16:18:33",
+      "excerpt": "<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nFor full details please see the information below.",
+      "content": "A small, handmade lidded box perfect for jewelry or other small treasures.\nCrafted from white porcelain clay on the pottery wheel, this piece features a unique marbled design created by blending turquoise clay with white porcelain. The marbling technique produces organic swirls and patterns, making each box truly one of a kind. Delicate handmade floral print with the turquoise colour add an elegant touch to the lid.\n\nThe box is finished with a shiny, transparent glaze that is food-safe and non-toxic.\n\n<span style=\"text-decoration: underline;\"><strong>Please Note:</strong></span>\n● Due to the marbling process, each box features slight variations in pattern, with unique swirls.\n● Actual colours may vary slightly due to lighting and screen settings.\n● Please note that the lid is not airtight when fitted.\n\n<span style=\"text-decoration: underline;\"><strong>Dimensions (approximately):</strong></span>\nWidth: 7.5 - 8 cm\nHeight: 4 cm\nTotal height (with lid): 6.5 cm\n\n∙ Dishwasher and microwave safe\n∙ Please note that all products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "marbled box",
+        "alt": "porcelain handmade marbled trinket box",
+        "url": "/media/2026/07/20250508_121732.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "lidded-container",
+          "name": "Lidded Container"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    },
+    {
+      "id": 1095,
+      "type": "product",
+      "title": "Heart Dish With Floral Print",
+      "slug": "heart-small-dish-with-floral-print",
+      "link": "https://anatpottery.co.uk/product/heart-small-dish-with-floral-print/",
+      "date": "2026-08-18 16:12:33",
+      "excerpt": "<div class=\"woocommerce-product-details__short-description\">\n<div class=\"etsy-short-cta\">\n\n<b data-path-to-node=\"4,3,1,0\" data-index-in-node=\"0\">Available In-Studio Only</b> This piece will be available to view and purchase in person at my South Ealing studio during the Ealing BEAT art trail this September.\n\nFor full details please see the information below.\n\n</div>\n</div>\n<div>\n<div class=\"anat-share-container\"></div>\n</div>",
+      "content": "A beautiful handmade stoneware dish in the shape of a heart is a perfect piece of functional art. Designed to hold trinkets, jewelry, small daily treasures or even a tea bag.\n<p data-path-to-node=\"2\">Handcrafted with care, this piece features a half-and-half design: a rich colored glaze finish on one side, paired with a light, speckled stoneware surface adorned with a detailed black floral print on the other.</p>\n<span style=\"text-decoration: underline;\">Please note:</span>\n● Actual colours may vary slightly due to lighting and screen settings.\n● Items are dishwasher and microwave safe\n● All products are handmade, therefore they might have small imperfections / differences in shape, size and colour. These natural variations add to the handmade charm of the piece, making each one unique and truly one of a kind.",
+      "image": {
+        "title": "heart dish",
+        "alt": "mall ceramic dish in the shape of a heart",
+        "url": "/media/2026/08/heart-dish.webp"
+      },
+      "categories": [
+        {
+          "taxonomy": "product_cat",
+          "slug": "jewlery-dish",
+          "name": "Jewlery Dish"
+        }
+      ],
+      "seoTitle": "",
+      "seoDescription": "",
+      "stockStatus": "instock",
+      "price": ""
+    }
+  ],
+  "attachments": {
+    "45": {
+      "title": "woocommerce-placeholder",
+      "alt": "",
+      "url": "/media/woocommerce-placeholder.webp"
+    },
+    "379": {
+      "title": "studio photo",
+      "alt": "Step inside Anat's Studio",
+      "url": "/media/2026/01/studio_image_7.webp"
+    },
+    "484": {
+      "title": "Anat Varon Moneta",
+      "alt": "Anat Varon Moneta working on the potter's wheel",
+      "url": "/media/2026/01/Anat-Varon-Moneta.webp"
+    },
+    "486": {
+      "title": "Anat Varon Moneta Potter",
+      "alt": "Anat Varon Moneta working on the potter's wheel",
+      "url": "/media/2026/01/Anat-Varon-Moneta-B.webp"
+    },
+    "523": {
+      "title": "studio rainbow photo",
+      "alt": "Rainbow and Greenary above Studio",
+      "url": "/media/2026/01/my-studio-hero.webp"
+    },
+    "543": {
+      "title": "studio photo",
+      "alt": "Anat Handmade Pottery Studio - Inside",
+      "url": "/media/2026/01/studio_image_main.webp"
+    },
+    "544": {
+      "title": "studio photo",
+      "alt": "Anat Handmade Pottery Studio - Outside",
+      "url": "/media/2026/01/20250903_181709.webp"
+    },
+    "545": {
+      "title": "mini pottery plants",
+      "alt": "Handmade Pottery mini plants by Anat Varon Moneta",
+      "url": "/media/2026/01/20251002_103119.webp"
+    },
+    "546": {
+      "title": "Studio wall",
+      "alt": "Anat Varon Moneta studio wall",
+      "url": "/media/2026/01/20251026_150437.webp"
+    },
+    "547": {
+      "title": "Stoneware small vases",
+      "alt": "Stoneware small vases by Anat Varon Moneta",
+      "url": "/media/2026/01/20251030_1347152-scaled.webp"
+    },
+    "548": {
+      "title": "Studio colour samples",
+      "alt": "Photo from studio - heart shaped colour samples of underglazes on the wall",
+      "url": "/media/2026/01/20251030_1349062-scaled.webp"
+    },
+    "549": {
+      "title": "studio brushes and colour samples",
+      "alt": "studio brushes and colour samples",
+      "url": "/media/2026/01/20251101_095158-scaled.webp"
+    },
+    "550": {
+      "title": "porcelain small vase",
+      "alt": "porcelain small vase by Anat Varon Moneta",
+      "url": "/media/2026/01/20251119_141940-scaled.webp"
+    },
+    "551": {
+      "title": "porcelain centering",
+      "alt": "porcelain centering on the potters wheel",
+      "url": "/media/2026/01/porcelain-centering.webp"
+    },
+    "552": {
+      "title": "Anat Varon Moneta - studio kiln",
+      "alt": "Anat Varon Moneta presenting the studio kiln",
+      "url": "/media/2026/01/PXL_20250801_123617410.webp"
+    },
+    "760": {
+      "title": "handmade porcelain serving tray",
+      "alt": "handmade porcelain serving tray",
+      "url": "/media/2026/01/20250114_090641.webp"
+    },
+    "762": {
+      "title": "mini porcelain bottle",
+      "alt": "mini porcelain bottle by Anat Varon Moneta",
+      "url": "/media/2026/01/1-scaled.webp"
+    },
+    "867": {
+      "title": "404 page -  broken pots",
+      "alt": "404 page - broken pots",
+      "url": "/media/2026/01/Gemini_Generated_Image_cxp8slcxp8slcxp8.webp"
+    },
+    "886": {
+      "title": "Porcelain mini bottles",
+      "alt": "Porcelain mini bottles with floral prints by Anat Varon Moneta",
+      "url": "/media/2026/02/hero_home_page_1.webp"
+    },
+    "887": {
+      "title": "anat handmade pottery logo",
+      "alt": "anat handmade pottery logo",
+      "url": "/media/2026/02/anatLogoBig-Circle_small.webp"
+    },
+    "888": {
+      "title": "pottery classes",
+      "alt": "pottery classes in south ealing",
+      "url": "/media/2026/02/pottery-classes.webp"
+    },
+    "889": {
+      "title": "porcelain boxes - shop now",
+      "alt": "porcelain colourful lidded boxes with floral prints on the lid",
+      "url": "/media/2026/02/shop-now.webp"
+    },
+    "895": {
+      "title": "site icon",
+      "alt": "site icon - anat handmade pottery",
+      "url": "/media/2026/02/cropped-site-icon.webp"
+    },
+    "897": {
+      "title": "pottery42Lesson",
+      "alt": "pottery for 2 people class image",
+      "url": "/media/2026/02/pottery42Lesson.webp"
+    },
+    "901": {
+      "title": "handbuilding course",
+      "alt": "handbuilding course - pinching, coiling and slabs techniques",
+      "url": "/media/2026/02/handbuilding-course.webp"
+    },
+    "902": {
+      "title": "wheel throwing course",
+      "alt": "wheel throwing course",
+      "url": "/media/2026/02/wheel-throwing-course.webp"
+    },
+    "903": {
+      "title": "pottery private class 1:1",
+      "alt": "pottery private class 1:1",
+      "url": "/media/2026/02/20230503_111500.webp"
+    },
+    "904": {
+      "title": "Handmade Ceramic Snack Set with Wooden Serving Tray",
+      "alt": "Handmade Ceramic Snack Set with Wooden Serving Tray",
+      "url": "/media/2026/02/20251208_112901.webp"
+    },
+    "905": {
+      "title": "Ring holder display | Small Jewelry Dish Stand Tray",
+      "alt": "Ring holder display - Small Jewelry Dish Stand Tray",
+      "url": "/media/2026/02/20251208_112558.webp"
+    },
+    "906": {
+      "title": "floral petals",
+      "alt": "floral petals",
+      "url": "/media/2026/02/floral-petals-3.webp"
+    },
+    "910": {
+      "title": "menu Floral Print",
+      "alt": "menu Floral Print",
+      "url": "/media/2026/02/menuFlorals.webp"
+    },
+    "919": {
+      "title": "Porcelain lidded jar by Anat Varon Moneta",
+      "alt": "Porcelain lidded jar with floral print and glazed lid",
+      "url": "/media/2026/02/20250114_101514.webp"
+    },
+    "923": {
+      "title": "two handled small snack bowl",
+      "alt": "two handled small snack bowl",
+      "url": "/media/2026/02/3.webp"
+    },
+    "925": {
+      "title": "Floral Mug By Anat Varon Moneta",
+      "alt": "Floral Coffee Tea Mug",
+      "url": "/media/2026/02/20241118_1358142.webp"
+    },
+    "964": {
+      "title": "gift voucher",
+      "alt": "Pottery Gift Voucher - Anat Handmade Pottery Studio",
+      "url": "/media/2026/02/gift-voucher-for-website.webp"
+    },
+    "968": {
+      "title": "weekly class",
+      "alt": "Weekly Group Class at Anat Handmade Pottery Studio",
+      "url": "/media/2026/02/weekly-class-2.webp"
+    },
+    "987": {
+      "title": "finished-handmade-tiger-pattern-bowls",
+      "alt": "finished handmade tiger pattern bowls",
+      "url": "/media/2026/03/finished-handmade-tiger-pattern-bowls.webp"
+    },
+    "988": {
+      "title": "hand-painting-tiger-design-underglaze",
+      "alt": "hand painting tiger design underglaze",
+      "url": "/media/2026/03/hand-painting-tiger-design-underglaze.webp"
+    },
+    "989": {
+      "title": "student-centering-and-forming-clay-pottery-wheel",
+      "alt": "student centering and forming clay pottery wheel",
+      "url": "/media/2026/03/student-centering-and-forming-clay-pottery-wheel.webp"
+    },
+    "990": {
+      "title": "trimming-pottery-bowl-base-ealing",
+      "alt": "",
+      "url": "/media/2026/03/trimming-pottery-bowl-base-ealing.webp"
+    },
+    "993": {
+      "title": "student-centering-and-forming-clay-pottery-wheel",
+      "alt": "student centering and forming clay pottery wheel",
+      "url": "/media/2026/03/student-centering-and-forming-clay-pottery-wheel-edited.webp"
+    },
+    "996": {
+      "title": "trimming-pottery-bowl-base-ealing",
+      "alt": "",
+      "url": "/media/2026/03/trimming-pottery-bowl-base-ealing-edited.webp"
+    },
+    "998": {
+      "title": "hand-painting-tiger-design-underglaze",
+      "alt": "hand painting tiger design underglaze",
+      "url": "/media/2026/03/hand-painting-tiger-design-underglaze-edited.webp"
+    },
+    "1005": {
+      "title": "student-painting-tiger-pottery",
+      "alt": "student painting tiger pattern on pottery",
+      "url": "/media/2026/03/20251115_105531.webp"
+    },
+    "1007": {
+      "title": "hand-painting-tiger-design-underglaze",
+      "alt": "hand painting tiger design underglaze",
+      "url": "/media/2026/03/hand-painting-tiger-design-underglaze-edited-1.webp"
+    },
+    "1008": {
+      "title": "hand-painting-tiger-design-underglaze",
+      "alt": "hand painting tiger design underglaze",
+      "url": "/media/2026/03/hand-painting-tiger-design-underglaze-edited-2.webp"
+    },
+    "1015": {
+      "title": "South Ealing Pottery",
+      "alt": "Handmade Pottery by Anat Varon Moneta - South Ealing",
+      "url": "/media/2026/03/South-Ealing-Pottery.webp"
+    },
+    "1053": {
+      "title": "1- wedged clay",
+      "alt": "",
+      "url": "/media/2026/04/1-wedged-clay.webp"
+    },
+    "1055": {
+      "title": "2-thrown pots",
+      "alt": "",
+      "url": "/media/2026/04/2-thrown-pots.webp"
+    },
+    "1060": {
+      "title": "3.1 - trimming",
+      "alt": "",
+      "url": "/media/2026/04/3.1-trimming.webp"
+    },
+    "1062": {
+      "title": "4-pulled handles",
+      "alt": "",
+      "url": "/media/2026/04/4-pulled-handles.webp"
+    },
+    "1064": {
+      "title": "5 - attaching handles",
+      "alt": "",
+      "url": "/media/2026/04/5-attaching-handles.webp"
+    },
+    "1065": {
+      "title": "6.2 - surface decoration",
+      "alt": "",
+      "url": "/media/2026/04/6.2-surface-decoration.webp"
+    },
+    "1066": {
+      "title": "7-final results showing shrinkage",
+      "alt": "",
+      "url": "/media/2026/04/7-final-results-showing-shrinkage.webp"
+    },
+    "1073": {
+      "title": "7-final results showing shrinkage-feature image",
+      "alt": "Throwing Journey of a mug - pottery course in Ealing",
+      "url": "/media/2026/04/7-final-results-showing-shrinkage-feature-image.webp"
+    },
+    "1090": {
+      "title": "small dessert plate",
+      "alt": "small dessert plate stoneware handmade",
+      "url": "/media/2026/07/20251010_160353.webp"
+    },
+    "1092": {
+      "title": "marbled box",
+      "alt": "porcelain handmade marbled trinket box",
+      "url": "/media/2026/07/20250508_121732.webp"
+    },
+    "1096": {
+      "title": "heart dish",
+      "alt": "mall ceramic dish in the shape of a heart",
+      "url": "/media/2026/08/heart-dish.webp"
+    }
+  }
+}
