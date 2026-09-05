@@ -1,17 +1,7 @@
 import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import wordpress from "@/content/wordpress.json";
-
-const socialPosts = [
-  { image: "/media/social/studio-glimpse.webp", href: "https://www.instagram.com/reel/DcPFnqxxs30/", alt: "Anat holding a miniature floral pottery bottle in her studio", kind: "reel" },
-  { image: "/media/social/studio-tour.webp", href: "https://www.instagram.com/reel/DbYVR26IH7E/", alt: "A tour of Anat's garden pottery studio", kind: "reel" },
-  { image: "/media/social/happy-place.webp", href: "https://www.instagram.com/p/DYHxKb9CI47/", alt: "Anat standing at the entrance to her garden pottery studio", kind: "post" },
-  { image: "/media/social/mug-journey.webp", href: "https://www.instagram.com/p/DXhKfqlDaGK/", alt: "Two handmade floral pottery mugs", kind: "post" },
-  { image: "/media/social/trimming.webp", href: "https://www.instagram.com/reel/DVySpL1CL91/", alt: "Anat demonstrating pottery trimming", kind: "reel" },
-  { image: "/media/social/face-behind-clay.webp", href: "https://www.instagram.com/p/DVtqf6cDASK/", alt: "Anat holding a handmade pottery mug", kind: "carousel" },
-  { image: "/media/social/underglaze.webp", href: "https://www.instagram.com/reel/DRCtr0GCAk0/", alt: "A handmade pot with blue underglaze", kind: "reel" },
-  { image: "/media/social/flower-decoration.webp", href: "https://www.instagram.com/reel/DQrwl2HCDbq/", alt: "Decorating a green handmade pottery vase", kind: "reel" },
-] as const;
+import SocialFeed from "@/components/social-feed";
 
 export default function Home() {
   const featured = wordpress.products.slice(-4).reverse();
@@ -79,19 +69,7 @@ export default function Home() {
           <h2 id="home-social-title">Social</h2>
           <a href="https://www.instagram.com/anat.handmade.pottery/" target="_blank" rel="noreferrer">@anat.handmade.pottery</a>
         </div>
-        <div className="social-grid">
-          {socialPosts.map((post) => (
-            <a className="social-tile" href={post.href} target="_blank" rel="noreferrer" key={post.href} aria-label={`${post.alt} on Instagram`}>
-              <img src={post.image} alt={post.alt} />
-              {post.kind === "reel" && <span className="play-mark" aria-hidden="true" />}
-              {post.kind === "carousel" && <span className="carousel-mark" aria-hidden="true" />}
-            </a>
-          ))}
-        </div>
-        <div className="social-actions">
-          <a href="https://www.instagram.com/anat.handmade.pottery/" target="_blank" rel="noreferrer">Load More</a>
-          <a href="https://www.instagram.com/anat.handmade.pottery/" target="_blank" rel="noreferrer">◎&nbsp;&nbsp; Follow on Instagram</a>
-        </div>
+        <SocialFeed />
       </section>
 
       <Link className="whatsapp-float" href="/contact-me/" aria-label="Contact Anat">

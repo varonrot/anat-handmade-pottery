@@ -374,7 +374,9 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 .play-mark { position: absolute; top: 50%; left: 50%; width: 0; height: 0; border-top: 23px solid transparent; border-bottom: 23px solid transparent; border-left: 36px solid white; filter: drop-shadow(0 1px 2px rgba(0,0,0,.25)); transform: translate(-42%, -50%); }
 .carousel-mark { position: absolute; top: 12px; right: 12px; width: 19px; height: 19px; border: 2px solid white; border-radius: 2px; box-shadow: -4px 4px 0 -2px transparent, -4px 4px 0 0 white; }
 .social-actions { display: flex; justify-content: center; gap: 10px; margin-top: 16px; }
-.social-actions a { padding: 8px 14px; border-radius: 3px; background: #2f2f2f; color: white; font-size: 12px; font-weight: 600; line-height: 1.4; }
+.social-actions a, .social-actions button { padding: 8px 14px; border: 0; border-radius: 3px; background: #2f2f2f; color: white; font: inherit; font-size: 12px; font-weight: 600; line-height: 1.4; cursor: pointer; }
+.social-actions a:hover, .social-actions button:hover { background: #191919; }
+.social-actions button:focus-visible { outline: 2px solid #2f2f2f; outline-offset: 3px; }
 
 .whatsapp-float { position: fixed; right: 12px; bottom: 12px; z-index: 80; display: grid; width: 72px; height: 42px; place-items: center; border-radius: 999px; background: #21d366; color: #075e54; box-shadow: 0 4px 18px rgba(0,0,0,.15); }
 .whatsapp-float svg { width: 24px; height: 24px; stroke-width: 2.5; }
