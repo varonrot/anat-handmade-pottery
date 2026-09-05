@@ -6,10 +6,11 @@ export function SiteFooter() {
       <div className="footer-inner">
         <div className="footer-story">
           <img src="/media/2026/02/anatLogoBig-Circle_small.webp" alt="" />
-          <p>Handcrafted ceramics and a space to create. Made and taught in a boutique garden studio in Ealing, West London.</p>
+          <p>Handcrafted ceramics and a space to create. I design and make pottery in my garden studio in Ealing, where I also host small group workshops for those looking to explore the world of clay.</p>
         </div>
         <div>
           <h2>Explore</h2>
+          <Link href="/">Home</Link>
           <Link href="/classes/">Pottery Classes</Link>
           <Link href="/shop/">Shop</Link>
           <Link href="/the-studio/">The Studio</Link>
@@ -19,9 +20,11 @@ export function SiteFooter() {
         </div>
         <div>
           <h2>Visit & Connect</h2>
-          <a href="https://www.instagram.com/anat.handmade.pottery/" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="https://www.facebook.com/anathandmadepottery/" target="_blank" rel="noreferrer">Facebook</a>
-          <a href="http://anathandmadepottery.etsy.com/" target="_blank" rel="noreferrer">Etsy Shop</a>
+          <div className="footer-socials">
+            <a href="https://www.instagram.com/anat.handmade.pottery/" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
+            <a href="https://www.facebook.com/anathandmadepottery/" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+            <a href="http://anathandmadepottery.etsy.com/" target="_blank" rel="noreferrer" aria-label="Etsy">E</a>
+          </div>
           <a href="mailto:anat.pottery@gmail.com">anat.pottery@gmail.com</a>
           <span>Ealing, London W5</span>
         </div>

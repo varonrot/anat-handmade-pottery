@@ -27,6 +27,7 @@ export function SiteHeader() {
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
         </nav>
+        <img className="header-florals" src="/media/2026/02/menuFlorals.webp" alt="" />
         <button className="menu-button" type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"}>
           {open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
         </button>
