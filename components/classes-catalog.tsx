@@ -1,23 +1,42 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { PotteryClass } from "@/content/classes";
 
 const filters = [
-  { label: "All Classes", count: null, matches: () => true },
-  { label: "1:1 Lesson", count: 4, matches: (item: PotteryClass) => item.categories.includes("1:1") || item.slug === "pottery-for-2" },
-  { label: "Group Lesson", count: 2, matches: (item: PotteryClass) => item.slug === "private-pottery-class" || item.slug === "pottery-for-2" },
-  { label: "Hand-Building Lesson", count: 3, matches: (item: PotteryClass) => item.categories.includes("Hand-building") || item.slug === "gift-vouchers" },
-  { label: "Multiple Sessions", count: 3, matches: (item: PotteryClass) => item.categories.includes("Four weeks") || item.slug === "gift-vouchers" },
-  { label: "Single Session", count: 3, matches: (item: PotteryClass) => item.categories.includes("Single session") || item.slug === "gift-vouchers" },
-  { label: "Throwing Lesson", count: 4, matches: (item: PotteryClass) => item.categories.includes("Throwing") || item.slug === "pottery-for-2" || item.slug === "gift-vouchers" },
+  { key: "all", label: "All Classes", count: null, slugs: null },
+  { key: "11-lesson", label: "1:1 Lesson", count: 4, slugs: ["private-pottery-class", "a-throwing-journey-for-adults", "4-week-hand-building-basics-adults", "gift-vouchers"] },
+  { key: "group-lesson", label: "Group Lesson", count: 2, slugs: ["pottery-for-2", "gift-vouchers"] },
+  { key: "hand-building-lesson", label: "Hand-Building Lesson", count: 3, slugs: ["private-pottery-class", "4-week-hand-building-basics-adults", "gift-vouchers"] },
+  { key: "multiple-sessions", label: "Multiple Sessions", count: 3, slugs: ["a-throwing-journey-for-adults", "4-week-hand-building-basics-adults", "gift-vouchers"] },
+  { key: "single-session", label: "Single Session", count: 3, slugs: ["private-pottery-class", "pottery-for-2", "gift-vouchers"] },
+  { key: "throwing-lesson", label: "Throwing Lesson", count: 4, slugs: ["private-pottery-class", "pottery-for-2", "a-throwing-journey-for-adults", "gift-vouchers"] },
 ] as const;
 
 export function ClassesCatalog({ items }: { items: PotteryClass[] }) {
-  const [active, setActive] = useState("All Classes");
-  const selected = filters.find((filter) => filter.label === active) ?? filters[0];
-  const visibleItems = items.filter(selected.matches);
+  const [active, setActive] = useState("all");
+  const selected = filters.find((filter) => filter.key === active) ?? filters[0];
+  const selectedSlugs = selected.slugs as readonly string[] | null;
+  const visibleItems = selectedSlugs ? items.filter((item) => selectedSlugs.includes(item.slug)) : items;
+
+  useEffect(() => {
+    const syncFromUrl = () => {
+      const requested = new URL(window.location.href).searchParams.get("category_name") || "all";
+      setActive(filters.some((filter) => filter.key === requested) ? requested : "all");
+    };
+    syncFromUrl();
+    window.addEventListener("popstate", syncFromUrl);
+    return () => window.removeEventListener("popstate", syncFromUrl);
+  }, []);
+
+  const selectCategory = (key: string) => {
+    setActive(key);
+    const url = new URL(window.location.href);
+    if (key === "all") url.searchParams.delete("category_name");
+    else url.searchParams.set("category_name", key);
+    window.history.pushState({}, "", url);
+  };
 
   return (
     <section className="classes-catalog section-shell" aria-label="Pottery classes">
@@ -26,11 +45,11 @@ export function ClassesCatalog({ items }: { items: PotteryClass[] }) {
         <div className="classes-category-list">
           {filters.map((filter) => (
             <button
-              className={active === filter.label ? "is-active" : undefined}
-              key={filter.label}
+              className={active === filter.key ? "is-active" : undefined}
+              key={filter.key}
               type="button"
-              onClick={() => setActive(filter.label)}
-              aria-pressed={active === filter.label}
+              onClick={() => selectCategory(filter.key)}
+              aria-pressed={active === filter.key}
             >
               <span>{filter.label}</span>
               {filter.count !== null && <span>{filter.count}</span>}
@@ -41,7 +60,7 @@ export function ClassesCatalog({ items }: { items: PotteryClass[] }) {
 
       <div className="classes-card-grid" id="classes" aria-live="polite">
         {visibleItems.map((item) => (
-          <article className="original-class-card" key={item.slug}>
+          <article className="original-class-card" key={`${active}-${item.slug}`}>
             <Link className="original-class-image" href={`/classes/${item.slug}/`}>
               <img src={item.image} alt={item.imageAlt} />
             </Link>
