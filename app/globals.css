@@ -604,3 +604,154 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 @media (prefers-reduced-motion: reduce) {
   .landing-reveal-enabled .landing-reveal { opacity: 1; transform: none; }
 }
+
+/* Keep the studio story compact and balanced on the landing page. */
+.landing-studio {
+  grid-template-columns: .92fr 1.08fr;
+  width: min(1240px, calc(100% - 56px));
+  min-height: 0;
+  margin: 0 auto 110px;
+  overflow: hidden;
+  border-radius: 6px 72px 6px 6px;
+  box-shadow: 0 22px 60px rgba(52, 62, 54, .11);
+}
+.landing-studio-image { height: 560px; }
+.landing-studio-image img { height: 560px; min-height: 0; object-position: center; }
+.landing-studio-copy { min-width: 0; padding: 52px clamp(42px, 5vw, 76px); }
+.landing-studio-copy h2 { max-width: 600px; font-size: clamp(39px, 3.5vw, 54px); }
+.landing-studio-copy > span { max-width: 650px; }
+
+@media (max-width: 980px) {
+  .landing-studio { width: min(100% - 40px, 900px); margin-bottom: 85px; }
+  .landing-studio-image, .landing-studio-image img { height: 520px; }
+  .landing-studio-copy { padding: 42px 34px; }
+}
+
+@media (max-width: 760px) {
+  .landing-studio { grid-template-columns: 1fr; width: calc(100% - 32px); margin-bottom: 72px; border-radius: 4px 44px 4px 4px; }
+  .landing-studio-image, .landing-studio-image img { height: 360px; min-height: 0; }
+  .landing-studio-copy { padding: 48px 24px 52px; }
+}
+
+/* Homepage concept 2 */
+.home-two { overflow: hidden; background: #f8f4f1; color: #384139; }
+.home-two-reveal-enabled .home-two-reveal { opacity: 0; transform: translateY(42px); transition: opacity .9s ease, transform .9s cubic-bezier(.22,1,.36,1); }
+.home-two-reveal-enabled .home-two-reveal.is-visible { opacity: 1; transform: translateY(0); }
+.home-two-reveal-enabled .home-two-delay-1 { transition-delay: .08s; }
+.home-two-reveal-enabled .home-two-delay-2 { transition-delay: .16s; }
+.home-two-reveal-enabled .home-two-delay-3 { transition-delay: .24s; }
+.home-two-hero { position: relative; width: calc(100% - 56px); height: min(710px, calc(100vh - 115px)); min-height: 610px; margin: 28px auto 0; overflow: hidden; border-radius: 3px 3px 140px 3px; background: #253129; }
+.home-two-hero > img { width: 100%; height: 100%; object-fit: cover; object-position: center; animation: home-two-breathe 15s ease-in-out infinite alternate; }
+@keyframes home-two-breathe { to { transform: scale(1.045); } }
+.home-two-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(26,33,28,.88) 0%, rgba(26,33,28,.59) 39%, rgba(26,33,28,.1) 72%), linear-gradient(0deg, rgba(22,29,24,.28), transparent 45%); }
+.home-two-hero-copy { position: absolute; top: 50%; left: max(6vw, calc((100vw - 1240px)/2)); width: min(650px, 50vw); color: white; transform: translateY(-50%); }
+.home-two-brand { margin-bottom: 24px; color: #f1d1cb; font-family: "Aboreto", sans-serif; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; }
+.home-two-brand span { display: block; margin-top: 3px; color: rgba(255,255,255,.66); font-family: "Rosario", sans-serif; font-size: 12px; }
+.home-two-hero h1 { font-family: "Playfair Display", Georgia, serif; font-size: clamp(58px, 6vw, 91px); font-weight: 600; line-height: .96; letter-spacing: -.045em; }
+.home-two-hero h1 em { color: #f0a99d; font-weight: 600; }
+.home-two-intro { max-width: 570px; margin-top: 26px; color: rgba(255,255,255,.88); font-size: 18px; line-height: 1.65; }
+.home-two-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.home-two-primary, .home-two-secondary { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; gap: 9px; padding: 11px 21px; border: 1px solid rgba(255,255,255,.82); border-radius: 3px; font-size: 15px; font-weight: 600; transition: transform .2s ease, background .2s ease; }
+.home-two-primary { border-color: #e69182; background: #e69182; color: #263029; }
+.home-two-secondary { color: white; background: rgba(255,255,255,.06); backdrop-filter: blur(8px); }
+.home-two-primary:hover, .home-two-secondary:hover { transform: translateY(-2px); }
+.home-two-primary svg, .home-two-section-head svg, .home-two-text-link svg { width: 18px; height: 18px; }
+.home-two-location { position: absolute; right: 38px; bottom: 32px; display: flex; align-items: center; gap: 11px; padding: 14px 18px; background: rgba(248,244,241,.92); color: #49554c; backdrop-filter: blur(12px); }
+.home-two-location svg { width: 20px; height: 20px; color: #c56c5d; }
+.home-two-location span { font-size: 12px; line-height: 1.35; text-transform: uppercase; letter-spacing: .08em; }
+.home-two-opening { display: flex; flex-direction: column; align-items: center; padding: 105px 24px 88px; text-align: center; }
+.home-two-opening img { width: 74px; height: 64px; object-fit: contain; }
+.home-two-opening > p, .home-two-feature-copy > p, .home-two-section-head p, .home-two-statement-copy > p, .home-two-social-head > p, .home-two-final > p { margin: 9px 0 10px; color: #bd6556; font-size: 13px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.home-two-opening h2 { color: #384139; font-family: "Playfair Display", Georgia, serif; font-size: clamp(39px, 4vw, 58px); line-height: 1.08; letter-spacing: -.025em; }
+.home-two-discover { width: min(1240px, calc(100% - 56px)); margin: auto; }
+.home-two-feature { display: grid; grid-template-columns: minmax(0, .93fr) minmax(0, 1.07fr); gap: clamp(55px, 7vw, 105px); align-items: center; margin-bottom: 110px; }
+.home-two-feature-reverse .home-two-feature-image { order: 2; }
+.home-two-feature-reverse .home-two-feature-copy { order: 1; padding-left: clamp(0px, 3vw, 45px); }
+.home-two-feature-image { position: relative; display: block; height: 570px; overflow: hidden; }
+.home-two-feature-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s cubic-bezier(.22,1,.36,1); }
+.home-two-feature-image:hover img { transform: scale(1.045); }
+.home-two-arch-left { border-radius: 240px 3px 3px 3px; }
+.home-two-arch-right { border-radius: 3px 240px 3px 3px; }
+.home-two-feature-image > span { position: absolute; right: 20px; bottom: 18px; display: grid; width: 47px; height: 47px; place-items: center; border-radius: 50%; background: rgba(248,244,241,.92); color: #755e56; font-size: 13px; }
+.home-two-feature-copy h2, .home-two-section-head h2, .home-two-statement-copy h2, .home-two-social-head h2, .home-two-final h2 { color: #384139; font-family: "Playfair Display", Georgia, serif; font-size: clamp(40px, 4vw, 60px); line-height: 1.04; letter-spacing: -.03em; }
+.home-two-feature-copy > span { display: block; max-width: 580px; margin-top: 24px; color: #657066; font-size: 17px; line-height: 1.75; }
+.home-two-feature-details { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
+.home-two-feature-details span { padding: 6px 11px; border: 1px solid #cfd8d0; border-radius: 999px; color: #657066; font-size: 12px; }
+.home-two-text-link { display: inline-flex; align-items: center; gap: 9px; margin-top: 28px; padding-bottom: 4px; border-bottom: 1px solid currentColor; color: #a65346; font-weight: 600; }
+.home-two-shop { padding: 105px max(28px, calc((100vw - 1240px)/2)) 125px; background: #e7ede8; }
+.home-two-section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-bottom: 45px; }
+.home-two-section-head > a { display: inline-flex; align-items: center; gap: 8px; padding-bottom: 4px; border-bottom: 1px solid #7b887e; color: #536057; font-weight: 600; }
+.home-two-products { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.home-two-product-image { position: relative; display: block; aspect-ratio: .92; overflow: hidden; background: #fff; }
+.home-two-product-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .65s cubic-bezier(.22,1,.36,1); }
+.home-two-product-image > span { position: absolute; right: 12px; bottom: 12px; left: 12px; padding: 10px; background: rgba(248,244,241,.92); color: #3f4941; font-size: 13px; font-weight: 600; text-align: center; opacity: 0; transform: translateY(8px); transition: opacity .3s ease, transform .3s ease; }
+.home-two-product:hover .home-two-product-image img { transform: scale(1.045); }
+.home-two-product:hover .home-two-product-image > span { opacity: 1; transform: translateY(0); }
+.home-two-product > p { margin: 14px 0 3px; color: #7b857d; font-size: 13px; }
+.home-two-product h3 { color: #303a32; font-family: "Rosario", sans-serif; font-size: 18px; font-weight: 600; line-height: 1.35; letter-spacing: 0; }
+.home-two-statement { display: grid; grid-template-columns: 1.15fr .85fr; min-height: 590px; background: #303a32; }
+.home-two-statement-image img { width: 100%; height: 100%; min-height: 590px; object-fit: cover; }
+.home-two-statement-copy { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(50px, 6vw, 95px); color: white; }
+.home-two-statement-copy h2 { color: white; }
+.home-two-statement-copy > span { display: block; margin-top: 24px; color: #d7ddd8; font-size: 17px; line-height: 1.7; }
+.home-two-text-link.light { color: #f0a99d; }
+.home-two-social { width: min(1140px, calc(100% - 48px)); margin: auto; padding: 105px 0 120px; }
+.home-two-social-head { display: flex; flex-direction: column; align-items: center; margin-bottom: 42px; text-align: center; }
+.home-two-social-head img { width: 70px; height: 60px; object-fit: contain; }
+.home-two-social-head > a { margin-top: 8px; color: #a65346; font-size: 17px; }
+.home-two-social-feed .social-grid { gap: 12px; }
+.home-two-social-feed .social-tile { border-radius: 2px; }
+.home-two-final { padding: 95px 24px 105px; background: #eee1db; text-align: center; }
+.home-two-final h2 em { color: #bd6556; font-weight: 600; }
+.home-two-final .home-two-primary { margin-top: 30px; }
+.home-two-primary.coral { color: #fff; }
+
+@media (max-width: 980px) {
+  .home-two-hero { height: 620px; min-height: 0; }
+  .home-two-hero-copy { width: min(620px, 68vw); }
+  .home-two-feature { gap: 42px; }
+  .home-two-feature-image { height: 470px; }
+  .home-two-products { grid-template-columns: repeat(2, 1fr); gap: 34px 20px; }
+  .home-two-statement { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 760px) {
+  .home-two-hero { width: calc(100% - 24px); height: 670px; margin-top: 12px; border-radius: 2px 2px 68px 2px; }
+  .home-two-hero > img { object-position: 58% center; }
+  .home-two-hero-shade { background: linear-gradient(0deg, rgba(25,33,27,.94), rgba(25,33,27,.25) 75%); }
+  .home-two-hero-copy { top: auto; right: 24px; bottom: 46px; left: 24px; width: auto; transform: none; }
+  .home-two-brand { margin-bottom: 16px; font-size: 12px; }
+  .home-two-hero h1 { font-size: clamp(48px, 14vw, 67px); }
+  .home-two-intro { margin-top: 18px; font-size: 16px; }
+  .home-two-actions { align-items: stretch; flex-direction: column; margin-top: 22px; }
+  .home-two-location { display: none; }
+  .home-two-opening { padding: 74px 20px 62px; }
+  .home-two-discover { width: calc(100% - 32px); }
+  .home-two-feature, .home-two-feature-reverse { grid-template-columns: 1fr; gap: 35px; margin-bottom: 82px; }
+  .home-two-feature-reverse .home-two-feature-image, .home-two-feature-reverse .home-two-feature-copy { order: initial; }
+  .home-two-feature-reverse .home-two-feature-copy { padding-left: 0; }
+  .home-two-feature-image { height: auto; aspect-ratio: .94; }
+  .home-two-arch-left { border-radius: 130px 2px 2px 2px; }
+  .home-two-arch-right { border-radius: 2px 130px 2px 2px; }
+  .home-two-feature-copy h2, .home-two-section-head h2, .home-two-statement-copy h2, .home-two-social-head h2, .home-two-final h2 { font-size: 42px; }
+  .home-two-shop { padding-block: 75px 85px; }
+  .home-two-section-head { align-items: flex-start; flex-direction: column; }
+  .home-two-products { grid-template-columns: repeat(2, 1fr); gap: 32px 12px; }
+  .home-two-product h3 { font-size: 16px; }
+  .home-two-statement { grid-template-columns: 1fr; }
+  .home-two-statement-image img { min-height: 390px; height: 390px; }
+  .home-two-statement-copy { padding: 60px 24px 66px; }
+  .home-two-social { padding-block: 80px 90px; }
+  .home-two-social-feed .social-grid { grid-template-columns: repeat(2, 1fr); gap: 7px; }
+  .home-two-final { padding-block: 78px 88px; }
+}
+
+@media (max-width: 440px) {
+  .home-two-products { grid-template-columns: 1fr; gap: 38px; }
+  .home-two-product-image { aspect-ratio: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-two-hero > img { animation: none; }
+  .home-two-reveal-enabled .home-two-reveal { opacity: 1; transform: none; }
+}
