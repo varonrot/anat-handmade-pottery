@@ -363,9 +363,9 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 
 .original-home { overflow: hidden; background: #f8f4f1; }
 .original-home .section-shell { width: min(1140px, calc(100% - 40px)); }
-.home-title { height: 82px; padding-top: 10px; text-align: center; }
-.home-title h1 { color: #4f4a45; font-family: "Aboreto", sans-serif; font-size: 36px; font-weight: 600; line-height: 1.4; letter-spacing: 0; text-transform: uppercase; }
-.home-title p { margin-top: -16px; color: #9f9f9f; font-family: "Aboreto", sans-serif; font-size: 19px; font-weight: 100; line-height: 1.3; text-transform: uppercase; }
+.home-title { display: flex; height: 82px; flex-direction: column; align-items: center; padding-top: 9px; text-align: center; }
+.home-title h1 { color: #4f4a45; font-family: "Aboreto", sans-serif; font-size: 36px; font-weight: 400; line-height: 1.12; letter-spacing: 0; text-transform: uppercase; }
+.home-title p { margin: 0; color: #9f9f9f; font-family: "Aboreto", sans-serif; font-size: 18px; font-weight: 400; line-height: 1.2; text-transform: uppercase; }
 
 .original-home .home-hero { position: relative; width: 90%; height: 484px; min-height: 0; margin-inline: auto; overflow: hidden; border-bottom: 4px solid #4f4a45; border-radius: 0 0 300px 300px; background: transparent; }
 .original-home .home-hero::before { content: ""; position: absolute; inset: 0; background: url("/media/2026/02/hero_home_page_1.webp") center center / cover no-repeat; transform: scale(1); transition: transform 8s; }
@@ -418,3 +418,65 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 
 .whatsapp-float { position: fixed; right: 12px; bottom: 12px; z-index: 80; display: grid; width: 72px; height: 42px; place-items: center; border-radius: 999px; background: #21d366; color: #075e54; box-shadow: 0 4px 18px rgba(0,0,0,.15); }
 .whatsapp-float svg { width: 24px; height: 24px; stroke-width: 2.5; }
+
+.site-footer { padding: 0; background: #a6b1a8; color: #f8f4f1; }
+.footer-inner { width: min(1020px, calc(100% - 48px)); min-height: 350px; padding-block: 45px 30px; grid-template-columns: 1.2fr .75fr 1fr; gap: 80px; align-items: start; }
+.footer-story { display: flex; flex-direction: column; align-items: flex-start; }
+.footer-story img { width: 80px; height: 80px; margin: 0 auto 22px; }
+.footer-story p { max-width: 310px; margin: 0; color: #fff; font-size: 16px; line-height: 1.65; text-align: justify; }
+.footer-inner h2 { margin-bottom: 14px; color: #f8f4f1; font-family: "Rosario", sans-serif; font-size: 20px; font-weight: 300; letter-spacing: .02em; text-transform: none; }
+.footer-inner > div:not(.footer-story) { align-items: center; gap: 2px; text-align: center; }
+.footer-inner a, .footer-inner span { color: #fff; font-size: 16px; }
+.footer-inner a:hover { color: #fff; opacity: .78; }
+.footer-socials { display: flex; align-items: center; justify-content: center; gap: 22px; margin: 2px 0 24px; }
+.footer-socials a { display: grid; width: 22px; height: 22px; place-items: center; color: #111; font-family: Georgia, serif; font-size: 27px; font-weight: 700; }
+.footer-socials svg { width: 20px; height: 20px; fill: #111; stroke: #111; }
+.copyright { width: 100%; height: 61px; margin: 0; padding: 18px 24px 0; border: 0; color: rgba(255,255,255,.62); font-size: 13px; text-align: center; }
+
+@media (max-width: 980px) {
+  .site-header { height: 96px; }
+  .header-inner { grid-template-columns: 100px 1fr 52px; height: 96px; }
+  .brand img { width: 80px; height: 80px; }
+  .header-florals { display: none; }
+  .menu-button { grid-column: 3; justify-self: end; background: rgba(255,255,255,.5); }
+  .mobile-nav { position: absolute; top: 96px; right: 0; left: 0; z-index: 10; background: #d3dfd5; }
+  .discover-row { grid-template-columns: 44% 1fr; column-gap: 24px; }
+  .discover-copy { padding-top: 60px; }
+  .home-shop-grid, .social-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-inner { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 760px) {
+  .site-header { height: 76px; }
+  .header-inner { height: 76px; }
+  .brand img { width: 66px; height: 66px; }
+  .mobile-nav { top: 76px; }
+  .home-title { height: 70px; padding-top: 8px; }
+  .home-title h1 { font-size: 24px; line-height: 1.15; }
+  .home-title p { margin: 0; font-size: 15px; line-height: 1.2; }
+  .original-home .home-hero { width: calc(100% - 20px); height: 202px; min-height: 0; border: 0; border-radius: 10px; }
+  .original-home .home-hero:hover::before { transform: scale(1.1); }
+  .original-home > .home-section-title { margin-top: 24px; }
+  .home-section-title h2 { font-size: 26px; }
+  .discover-rows { width: 100% !important; margin-top: 6px; }
+  .discover-row { display: flex; height: auto; flex-direction: column; }
+  .discover-image { width: 82%; height: auto; aspect-ratio: 1; padding: 10px; }
+  .discover-copy { padding: 20px 20px 34px; align-items: center; text-align: center; }
+  .discover-copy h2 { font-size: 26px; }
+  .discover-copy p { text-align: justify; }
+  .home-button { margin-top: 10px; }
+  .home-shop { margin-top: 20px; }
+  .home-shop .home-section-title { height: 115px; }
+  .home-shop-grid { padding: 0; }
+  .home-social { margin-top: 24px; padding-bottom: 60px; }
+  .home-social .home-section-title { height: 145px; }
+  .footer-inner { grid-template-columns: 1fr; gap: 38px; padding-block: 40px; }
+  .footer-story { align-items: center; }
+  .footer-story p { text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .home-shop-grid { grid-template-columns: 1fr; gap: 38px; }
+  .social-grid { grid-template-columns: repeat(2, 1fr); }
+  .whatsapp-float { width: 58px; }
+}
