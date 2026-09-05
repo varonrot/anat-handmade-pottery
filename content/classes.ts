@@ -22,12 +22,12 @@ export const potteryClasses: PotteryClass[] = [
   {
     slug: "private-pottery-class",
     title: "Private Pottery Experience (Single Session)",
-    cardDescription: "A 2.5-hour private session tailored to your level, with dedicated guidance in wheel-throwing or hand-building.",
+    cardDescription: "A 2.5-hour 1:1 private session completely tailored to your skill level. Perfect for any level, you’ll receive dedicated guidance on either throwing or hand-building. We’ll focus on what you want to learn, and your finished pieces will be glazed and fired after class.",
     image: "/media/2026/02/20230503_111500.webp",
     imageAlt: "A private pottery lesson at the wheel",
     priceLabel: "Price per person",
     price: "£100",
-    duration: "1 session × 2.5 hours",
+    duration: "1 Session x 2.5 Hours",
     heading: "The Private Pottery Session",
     intro: [
       "Enjoy a hands-on, 2.5-hour immersion into the art of ceramics. Whether you are looking for dedicated one-to-one tuition or a creative date for two, this experience is flexible and beginner-friendly.",
@@ -48,13 +48,13 @@ export const potteryClasses: PotteryClass[] = [
   {
     slug: "pottery-for-2",
     title: "Pottery for 2",
-    cardDescription: "A private pottery experience for two. Learn the basics of wheel-throwing side by side and create together.",
+    cardDescription: "A 2.5-hour private pottery session for two, designed for all skill levels. Learn the basics of wheel-throwing side by side, with hands-on guidance throughout. Your finished pieces will be glazed and fired after class.",
     image: "/media/2026/02/pottery42Lesson.webp",
     imageAlt: "Two people learning pottery together",
     priceLabel: "Price for two",
     originalPrice: "£200",
     price: "£180",
-    duration: "1 session × 2.5 hours",
+    duration: "1 Session x 2.5 Hours",
     heading: "The Pottery Session for Two",
     intro: [
       "A tailored 2.5-hour immersion into ceramics designed especially for two. Perfect for couples, friends or family members who want to share a creative experience side by side.",
@@ -75,13 +75,13 @@ export const potteryClasses: PotteryClass[] = [
   {
     slug: "a-throwing-journey-for-adults",
     title: "Throwing Journey for Adults (4-Week Private Course)",
-    cardDescription: "A deeper journey through throwing, trimming, decoration and glazing, with private guidance throughout.",
+    cardDescription: "A deeper dive into the full process of wheel throwing, trimming, decorating, and glazing. Four sessions of 2.5 hours each, with personal 1:1 guidance throughout.",
     image: "/media/2026/02/wheel-throwing-course.webp",
     imageAlt: "Hands centering porcelain on a pottery wheel",
     priceLabel: "Price per person",
     originalPrice: "£400",
     price: "£320",
-    duration: "4 sessions × 2.5 hours",
+    duration: "4 Sessions x 2.5 Hours",
     heading: "A Throwing Journey for Adults",
     intro: [
       "This one-to-one four-week course is a complete introduction to pottery. Move from raw clay to finished pieces while learning every step of the process on the potter’s wheel, at your own pace.",
@@ -105,13 +105,13 @@ export const potteryClasses: PotteryClass[] = [
   {
     slug: "4-week-hand-building-basics-adults",
     title: "Hand-Building Journey (4-Week Private Course)",
-    cardDescription: "Learn pinching, coiling and slab-building, then decorate and glaze a collection of your own pieces.",
+    cardDescription: "A four-week private course moving from raw clay to finished pottery. Master the fundamentals of pinching, coiling, and slab-building to create, decorate and glaze your own unique collection – guided at your own pace.",
     image: "/media/2026/02/handbuilding-course.webp",
     imageAlt: "Hands shaping clay using hand-building techniques",
     priceLabel: "Price per person",
     originalPrice: "£400",
     price: "£320",
-    duration: "4 sessions × 2.5 hours",
+    duration: "4 Sessions x 2.5 Hours",
     heading: "A Hand-Building Journey",
     intro: [
       "This one-to-one four-week course is a relaxed introduction to shaping clay by hand. Learn pinching, coiling and slab-building as you move from raw clay to a final glazed collection.",
@@ -135,12 +135,12 @@ export const potteryClasses: PotteryClass[] = [
   {
     slug: "gift-vouchers",
     title: "Gift Vouchers",
-    cardDescription: "Give the gift of creativity, redeemable against private tuition, courses or handmade ceramics from the studio.",
+    cardDescription: "Give the gift of creativity. Gift vouchers are the perfect present for friends or loved ones, redeemable against any private tuition, course, or handmade ceramics from the studio.",
     image: "/media/2026/02/gift-voucher-for-website.webp",
     imageAlt: "Anat Handmade Pottery gift voucher",
     priceLabel: "Voucher value",
-    price: "From £50",
-    duration: "Valid for 12 months",
+    price: "Starting From £50",
+    duration: "Valid for 12 Months",
     heading: "The Perfect Creative Gift",
     intro: [
       "Treat someone special to a hands-on studio experience. A pottery gift voucher is an invitation to slow down, get creative and explore the art of clay.",
