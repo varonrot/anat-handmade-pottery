@@ -154,6 +154,7 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 .booking-panel h2 { font-size: 2rem; margin-bottom: .7rem; }
 
 .enquiry-form { display: grid; gap: 1rem; margin-top: 1.5rem; }
+#contact-form { scroll-margin-top: 250px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .enquiry-form label { display: grid; gap: .35rem; color: var(--ink); font-size: .86rem; font-weight: 700; }
 .enquiry-form input, .enquiry-form select, .enquiry-form textarea { width: 100%; min-height: 48px; padding: .7rem .8rem; border: 1px solid #cfc3bb; border-radius: 3px; background: white; color: var(--ink); font-size: 1rem; font-weight: 400; }
@@ -294,6 +295,7 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 }
 
 @media (max-width: 760px) {
+  #contact-form { scroll-margin-top: 120px; }
   .section-shell { width: min(100% - 32px, 1180px); }
   .header-inner { width: calc(100% - 24px); height: 76px; }
   .brand img { width: 66px; height: 66px; }
