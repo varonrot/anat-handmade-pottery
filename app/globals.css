@@ -182,10 +182,18 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 .availability span, .short-copy { color: var(--muted); }
 .short-copy { margin-bottom: 1.7rem; }
 .short-copy .etsy-short-cta > b:first-child, .short-copy > b:first-child { display: none; }
-.product-description { max-width: 880px; padding-bottom: 120px; }
-.rich-copy { color: #554f4a; }
-.rich-copy p, .rich-copy ul { margin: 0 0 1.2rem; }
-.rich-copy img { height: auto; margin: 2rem auto; }
+.product-description { max-width: 1180px; padding-bottom: 120px; }
+.product-description-heading { margin-bottom: 34px; border-top: 1px solid #cfd4d1; }
+.product-description-heading span { display: inline-block; margin-top: -2px; padding: 10px 0 0; border-top: 3px solid #667063; color: #334155; font-size: 16px; font-weight: 600; }
+.product-description-copy { max-width: 1080px; color: #334155; font-size: 16px; line-height: 1.7; }
+.product-description-copy p { margin: 0 0 1rem; }
+.product-description-lead { font-size: 17px; }
+.product-description-section { margin-top: 28px; }
+.product-description-section h2 { margin: 0 0 8px; color: #334155; font-family: "Rosario", Arial, sans-serif; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0; text-decoration: underline; text-underline-offset: 2px; }
+.product-description-section ul { margin: 0; padding-left: 1.15rem; }
+.product-description-section li { margin: 2px 0; padding-left: 1px; }
+.product-description-section li::marker { color: #334155; font-size: .75em; }
+.product-dimensions p { margin: 0; }
 
 .about-hero { display: grid; grid-template-columns: minmax(320px, .85fr) 1.15fr; gap: clamp(3rem, 8vw, 8rem); align-items: center; padding-block: 70px 110px; }
 .about-image { position: relative; }
