@@ -439,8 +439,48 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 .social-actions a:hover, .social-actions button:hover { background: #191919; }
 .social-actions button:focus-visible { outline: 2px solid #2f2f2f; outline-offset: 3px; }
 
-.whatsapp-float { position: fixed; right: 12px; bottom: 12px; z-index: 80; display: grid; width: 72px; height: 42px; place-items: center; border-radius: 999px; background: #21d366; color: #075e54; box-shadow: 0 4px 18px rgba(0,0,0,.15); }
-.whatsapp-float svg { width: 24px; height: 24px; stroke-width: 2.5; }
+.whatsapp-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease, background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  transform: scale(1.08) translateY(-2px);
+  background-color: #22bf5b;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22), 0 2px 8px rgba(37, 211, 102, 0.35);
+  outline: none;
+}
+
+.whatsapp-float:active {
+  transform: scale(0.96);
+}
+
+.whatsapp-float svg {
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+
+@media print {
+  .whatsapp-float {
+    display: none !important;
+  }
+}
 
 .site-footer { padding: 0; background: #a6b1a8; color: #f8f4f1; }
 .footer-inner { width: min(1020px, calc(100% - 48px)); min-height: 350px; padding-block: 45px 30px; grid-template-columns: 1.2fr .75fr 1fr; gap: 80px; align-items: start; }
@@ -501,7 +541,16 @@ body { background: #f8f4f1; font-family: "Rosario", Arial, sans-serif; color: #3
 @media (max-width: 480px) {
   .home-shop-grid { grid-template-columns: 1fr; gap: 38px; }
   .social-grid { grid-template-columns: repeat(2, 1fr); }
-  .whatsapp-float { width: 58px; }
+  .whatsapp-float {
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+  }
+  .whatsapp-float svg {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* Pottery classes conversion landing page */

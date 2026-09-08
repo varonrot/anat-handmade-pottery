@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, MapPin, MessageCircle } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import SocialFeed from "@/components/social-feed";
 import { HomeTwoReveal } from "@/components/home-two-reveal";
 import wordpress from "@/content/wordpress.json";
@@ -113,8 +113,6 @@ export default function HomeTwoPage() {
         <h2>Come and make something<br /><em>that is entirely yours.</em></h2>
         <Link className="home-two-primary coral" href="/classes/">Explore pottery classes <ArrowRight aria-hidden="true" /></Link>
       </section>
-
-      <Link className="whatsapp-float" href="/contact-me/" aria-label="Contact Anat"><MessageCircle aria-hidden="true" /></Link>
     </main>
   );
 }

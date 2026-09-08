@@ -3,6 +3,7 @@ import Script from "next/script";
 import { CookieBanner } from "@/components/cookie-banner";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
 import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-40Y0QQ1M0T";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteHeader />
         {children}
         <SiteFooter />
+        <WhatsAppFloat />
         <CookieBanner />
       </body>
     </html>

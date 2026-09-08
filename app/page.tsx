@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
 import wordpress from "@/content/wordpress.json";
 import SocialFeed from "@/components/social-feed";
 import { HomeReveal } from "@/components/home-reveal";
@@ -73,10 +72,6 @@ export default function Home() {
         </div>
         <SocialFeed />
       </section>
-
-      <Link className="whatsapp-float" href="/contact-me/" aria-label="Contact Anat">
-        <MessageCircle aria-hidden="true" />
-      </Link>
     </main>
   );
 }
