@@ -1,0 +1,35 @@
+.heroTitle {
+  margin: 0;
+  color: #fff;
+  font-family: "Rosario", Arial, sans-serif;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: 0;
+  text-shadow: 0 1px 3px rgba(0,0,0,.18);
+}
+
+.introTitle {
+  margin: 0 0 1.1rem;
+  color: #334155;
+  font-family: "Rosario", Arial, sans-serif;
+  font-size: clamp(1.75rem, 2.45vw, 2.15rem);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.detailsTitle {
+  margin: 0;
+  color: #334155;
+  font-family: "Rosario", Arial, sans-serif;
+  font-size: clamp(1.75rem, 2.45vw, 2.15rem);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+@media (max-width: 760px) {
+  .heroTitle { font-size: 2.35rem; }
+  .introTitle, .detailsTitle { font-size: 1.75rem; }
+}
