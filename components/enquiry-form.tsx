@@ -2,11 +2,11 @@
 
 import { FormEvent, useEffect, useState } from "react";
 
-type EnquiryFormProps = { subject?: string; compact?: boolean };
+type EnquiryFormProps = { subject?: string; compact?: boolean; submitLabel?: string };
 
 const FORM_ENDPOINT = "https://formsubmit.co/ajax/anat.pottery@gmail.com";
 
-export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact = false }: EnquiryFormProps) {
+export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact = false, submitLabel }: EnquiryFormProps) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [productName, setProductName] = useState("");
   const [topic, setTopic] = useState("General question / studio visit");
@@ -80,7 +80,7 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
       {compact && <label>Preferred date/time (optional)<input name="date" type="text" placeholder="For example, Saturday morning" disabled={status === "sending"} /></label>}
       <label>Your message<textarea name="message" rows={compact ? 4 : 6} value={message} onChange={(event) => setMessage(event.target.value)} disabled={status === "sending"} /></label>
       <button className="button primary" type="submit" disabled={status === "sending"}>
-        {status === "sending" ? "Sending…" : compact ? "Enquire About This Class" : "Send Enquiry"}
+        {status === "sending" ? "Sending…" : submitLabel || (compact ? "Enquire About This Class" : "Send Enquiry")}
       </button>
       {status === "sent" && <p className="form-note" role="status">Thank you — your enquiry has been sent to Anat. She’ll get back to you shortly.</p>}
       {status === "error" && <p className="form-note" role="alert">Something went wrong. Please try again, or email Anat directly at anat.pottery@gmail.com.</p>}

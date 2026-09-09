@@ -16,6 +16,7 @@ export type PotteryClass = {
   included: string[];
   idealFor: string;
   categories: string[];
+  waitingList?: boolean;
 };
 
 export const potteryClasses: PotteryClass[] = [
@@ -160,6 +161,37 @@ export const potteryClasses: PotteryClass[] = [
     ],
     idealFor: "Birthdays, anniversaries, weddings or simply encouraging a creative friend to try something new.",
     categories: ["Gift", "Flexible"],
+  },
+  {
+    slug: "friday-morning-guided-project-sessions",
+    title: "Friday Morning Class - Guided Project Sessions",
+    cardDescription: "A relaxed weekly pottery class for up to four people. Bring your own project ideas and receive practical guidance as you develop your skills in a small, supportive studio group.",
+    image: "/media/2026/02/weekly-class-2.webp",
+    imageAlt: "Pottery students working on guided projects in the studio",
+    priceLabel: "Price per session",
+    price: "£60",
+    duration: "Every Friday, 10:00am–12:30pm",
+    heading: "Friday Morning Guided Project Sessions",
+    intro: [
+      "These weekly Friday morning sessions are for people who would like regular time in the studio to make, learn and develop their own pottery projects with Anat’s guidance.",
+      "The group is kept to a maximum of four people, allowing plenty of individual support while sharing a relaxed and creative studio atmosphere.",
+    ],
+    sectionTitle: "How It Works",
+    highlights: [
+      "Classes run every Friday morning from 10:00am to 12:30pm.",
+      "Each session costs £60 and is paid in advance according to the number of Fridays in that month.",
+      "If you miss a session, a make-up session will be arranged.",
+      "Places are limited to four people per group.",
+    ],
+    includedTitle: "What’s Included",
+    included: [
+      "Guidance tailored to your individual pottery project and experience level.",
+      "A small, supportive group setting with a maximum of four people.",
+      "Studio time every Friday morning from 10:00am to 12:30pm.",
+    ],
+    idealFor: "Adults who would enjoy an ongoing, guided pottery practice and the encouragement of a small creative group.",
+    categories: ["Group", "Ongoing sessions"],
+    waitingList: true,
   },
 ];
 

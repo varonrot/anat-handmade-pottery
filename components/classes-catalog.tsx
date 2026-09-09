@@ -7,7 +7,7 @@ import type { PotteryClass } from "@/content/classes";
 const filters = [
   { key: "all", label: "All Classes", count: null, slugs: null },
   { key: "11-lesson", label: "1:1 Lesson", count: 4, slugs: ["private-pottery-class", "a-throwing-journey-for-adults", "4-week-hand-building-basics-adults", "gift-vouchers"] },
-  { key: "group-lesson", label: "Group Lesson", count: 2, slugs: ["pottery-for-2", "gift-vouchers"] },
+  { key: "group-lesson", label: "Group Lesson", count: 3, slugs: ["pottery-for-2", "gift-vouchers", "friday-morning-guided-project-sessions"] },
   { key: "hand-building-lesson", label: "Hand-Building Lesson", count: 3, slugs: ["private-pottery-class", "4-week-hand-building-basics-adults", "gift-vouchers"] },
   { key: "multiple-sessions", label: "Multiple Sessions", count: 3, slugs: ["a-throwing-journey-for-adults", "4-week-hand-building-basics-adults", "gift-vouchers"] },
   { key: "single-session", label: "Single Session", count: 3, slugs: ["private-pottery-class", "pottery-for-2", "gift-vouchers"] },
