@@ -21,7 +21,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Tre
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button, input, select, textarea { font: inherit; }
-h1, h2, h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.08; letter-spacing: -.025em; }
+h1, h2, h3, h4, h5, h6 { margin: 0; font-family: "Aboreto", sans-serif; font-weight: 400; line-height: 1.15; letter-spacing: .02em; }
 h1 { font-size: clamp(2.7rem, 6vw, 5.7rem); }
 h2 { font-size: clamp(2rem, 4vw, 3.7rem); }
 h3 { font-size: clamp(1.45rem, 2vw, 2rem); }
@@ -114,10 +114,10 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 
 .original-classes-page { background: #f8f4f1; }
 .classes-page-heading { padding: 82px 24px 91px; border-bottom: 1px solid #e6e1dc; background: #f4f3f0; text-align: center; }
-.classes-page-heading h1 { color: #667063; font-family: "Rosario", Arial, sans-serif; font-size: 48px; font-weight: 400; line-height: 1.2; letter-spacing: 0; }
+.classes-page-heading h1 { color: #667063; font-family: "Aboreto", sans-serif; font-size: clamp(32px, 4vw, 44px); font-weight: 400; line-height: 1.25; letter-spacing: .02em; }
 .classes-page-heading p { margin: 26px auto 0; color: #8c9d87; font-family: "Libre Baskerville", Georgia, serif; font-size: 17.6px; font-style: italic; line-height: 1.7; }
 .classes-catalog { display: grid; grid-template-columns: 216px minmax(0, 864px); gap: 26px; align-items: start; padding-block: 110px 100px; }
-.classes-categories h2 { margin-bottom: 0; padding-bottom: 12px; border-bottom: 1px solid #ded8d3; color: #334155; font-family: "Playfair Display", Georgia, serif; font-size: 20.8px; font-style: italic; font-weight: 600; line-height: 1.3; letter-spacing: 0; }
+.classes-categories h2 { margin-bottom: 0; padding-bottom: 12px; border-bottom: 1px solid #ded8d3; color: #334155; font-family: "Aboreto", sans-serif; font-size: 20px; font-style: normal; font-weight: 400; line-height: 1.3; letter-spacing: .04em; }
 .classes-category-list { display: grid; }
 .classes-category-list button { display: flex; justify-content: space-between; width: 100%; padding: 14px 6px; border: 0; border-bottom: 1px solid #e8e2dd; color: #6f746f; background: transparent; font-family: "Rosario", Arial, sans-serif; font-size: 13px; text-align: left; cursor: pointer; }
 .classes-category-list button span:last-child { color: #91a08c; }
@@ -130,7 +130,7 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
 .original-class-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .55s ease; }
 .original-class-card:hover .original-class-image img { transform: scale(1.035); }
 .original-class-copy { display: flex; flex: 1; flex-direction: column; padding: 10px; }
-.original-class-copy h3 { margin: 4px 0 23px; color: #667063; font-family: "Rosario", Arial, sans-serif; font-size: 20px; font-weight: 600; line-height: 1.3; letter-spacing: 0; }
+.original-class-copy h3 { margin: 4px 0 23px; color: #667063; font-family: "Aboreto", sans-serif; font-size: 19px; font-weight: 400; line-height: 1.35; letter-spacing: .02em; }
 .original-class-copy > p { margin-bottom: 22px; color: #52606d; font-family: "Rosario", Arial, sans-serif; font-size: 16px; line-height: 1.65; text-align: justify; }
 .original-class-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: auto; padding: 17px 0; border-top: 1px solid #e8e2dd; border-bottom: 1px solid #e8e2dd; }
 .original-class-meta > div { display: flex; flex-direction: column; }
@@ -347,7 +347,7 @@ del { margin-right: .35rem; color: var(--muted); font-weight: 400; }
   .classes-page-heading h1 { font-size: 35px; }
   .classes-page-heading p { margin-top: 18px; font-size: 15px; }
   .classes-catalog { grid-template-columns: 1fr; gap: 38px; padding-block: 55px 75px; }
-  .classes-categories { width: 100%; }
+  .classes-categories { display: none; }
   .original-class-card { min-height: 0; padding: 18px; }
   .original-class-image { height: 230px; }
 }
