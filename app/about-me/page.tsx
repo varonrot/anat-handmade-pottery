@@ -12,10 +12,10 @@ export default function AboutPage() {
       <div className="about-copy">
         <h1>The Journey from MBA to Mud</h1>
         <h2 className="about-subtitle">Artist, Teacher, and Founder of Anat Handmade Pottery</h2>
-        <p className="lead">My love for ceramics started when I was eight years old. It stayed with me through a career in business, until I decided to follow my heart and become a full-time potter.</p>
-        <p>I studied at the Bezalel Academy of Arts and Design, where I learned both the craft and technical side of clay. During those years I opened my first studio and discovered how much I loved creating my own pieces and teaching others.</p>
-        <p>Today I work from my boutique garden studio in West London, creating porcelain and stoneware. I combine clean wheel-thrown forms with colourful slips and screen prints that I produce myself.</p>
-        <p>For me, pottery is a way to slow down and be present. Whether I’m making a new collection or guiding a student, my aim is to share the simple, handmade joy of working with clay.</p>
+        <p className="lead">My love for ceramics started when I was just eight years old. It was a childhood passion that stayed with me, even as I moved into the business world to complete my BSc and MBA. But no matter how far I went in my career, I always found myself drawn back to the potter’s wheel. Eventually, I decided to leave the corporate path behind to follow my heart and become a full-time potter.</p>
+        <p>I studied at the Bezalel Academy of Arts and Design, where I truly learned the craft and technical side of working with clay. During those years of study, I opened my first studio, discovering how much I loved both creating my own pieces and teaching others how to do the same.</p>
+        <p>Now, I work from my boutique garden studio in West London, creating porcelain and stoneware pieces. My work is all about the details. I love combining the clean lines of wheel-throwing with colourful slips and screen prints that I produce myself.</p>
+        <p>For me, pottery is a way to slow down and be present. Whether I’m working on a new collection or helping a student during a workshop, my goal is to share the simple, handmade joy that comes from working with clay.</p>
         <div className="signature">Anat Varon Moneta</div>
         <Link className="button primary" href="/the-studio/">Step Inside My Studio</Link>
       </div>

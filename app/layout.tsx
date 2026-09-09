@@ -27,6 +27,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,600;1,600&family=Rosario:wght@300;400;500;600&display=swap"
         />
+        <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'></link>
       </head>
       <body>
         <Script
