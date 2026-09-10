@@ -78,7 +78,7 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
         </label>
       )}
       {compact && <label>Preferred date/time (optional)<input name="date" type="text" placeholder="For example, Saturday morning" disabled={status === "sending"} /></label>}
-      <label>Your message<textarea name="message" rows={compact ? 4 : 6} value={message} onChange={(event) => setMessage(event.target.value)} disabled={status === "sending"} /></label>
+      <label>Your message (optional)<textarea name="message" rows={compact ? 4 : 6} value={message} onChange={(event) => setMessage(event.target.value)} disabled={status === "sending"} /></label>
       <button className="button primary" type="submit" disabled={status === "sending"}>
         {status === "sending" ? "Sending…" : submitLabel || (compact ? "Enquire About This Class" : "Send Enquiry")}
       </button>

@@ -161,14 +161,39 @@ align-items: stretch; }
     border-radius: 0 120px 0px 0;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.03);}
 .detail-intro h1 { font-size: 2.4rem; font-weight: 500; letter-spacing: 0; margin-top: 2rem;margin-bottom: 3rem; text-align: center; }
-.detail-intro .button { margin-top: .4rem; background-color: #C16A54; }
-.detail-body { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: clamp(3rem, 7vw, 7rem); align-items: start; padding-block: 70px 120px; }
+.detail-intro .button { width: 100%; margin-top: .4rem; background-color: #C16A54; }
+.booking-panel .button.primary { width: 100%; background-color: #C16A54; }
+.booking-panel .button.primary:hover { background-color: #a95343; }
+.detail-intro small{color:#8C9D87; font-weight:700px;}
+.detail-body { 
+  display: grid; 
+  grid-template-columns: 
+  minmax(0, 1fr) 420px; 
+  gap: clamp(3rem, 4vw, 4rem); 
+  align-items: start; 
+  padding-bottom: 120px; }
+  .single-class-description-text{background-color: white; padding:50px;}
+  .single-class-description-text h2{color:#4b4b4b;}
 .prose { max-width: 720px; }
 .prose h2, .product-description h2 { margin: 2.6rem 0 1rem; font-size: 2rem; }
 .prose h2 {  font-weight: 500; letter-spacing: 0; }
 .prose h2:first-child { margin-top: 0; }
 .prose p, .prose li { color: #58524e; }
 .prose li { margin-bottom: .8rem; padding-left: .35rem; }
+
+/* What's Included list */
+.single-class-description-text .included-list li {
+  padding-left: 15px;
+  margin-bottom: 30px;
+    border-radius: 10px;
+    border-left: 4px solid #8C9D87;
+    font-style: italic;
+}
+.single-class-description-text h2{
+  padding-bottom:15px;
+  border-bottom: 1px solid rgba(140, 157, 135, 0.15);
+}
+
 .booking-panel { position: sticky; top: 115px; padding: 2rem; background: var(--cream); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .booking-panel h2 { margin-bottom: .7rem; font-size: 2rem; font-weight: 500; letter-spacing: 0; }
 
@@ -304,6 +329,7 @@ align-items: stretch; }
   .mobile-nav a { padding: .7rem 0; border-bottom: 1px solid var(--line); font-weight: 600; }
   .product-grid { grid-template-columns: repeat(2, 1fr); }
   .detail-body { grid-template-columns: 1fr; }
+  .detail-body h2 { font-size: 1.8rem; }
   .booking-panel { position: static; max-width: 640px; }
   .studio-gallery { grid-template-columns: repeat(3, 1fr); }
   .footer-inner { grid-template-columns: 1fr 1fr; }
@@ -338,7 +364,23 @@ align-items: stretch; }
   .class-card-copy { padding: 1.6rem; }
   .class-breadcrumb { padding-top: 42px; }
   .detail-hero { padding: 0 0 55px; }
+  .detail-intro { min-width: 0; padding: 22px; border-radius: 0 56px 0 0; }
+  .detail-intro h1 { margin: .3rem 0 2rem; font-size: 1.75rem; }
+  .detail-meta { margin: 1.2rem 0; padding-block: 1rem; }
+  .detail-meta > div { gap: .35rem; }
+  .detail-meta small { font-size: .72rem; letter-spacing: .05em; }
+  .detail-meta small svg { width: 15px; height: 15px; margin-right: 5px; }
+  .detail-meta strong { font-size: .95rem; }
+  .detail-intro .button { width: 100%; padding-inline: 1rem; font-size: .9rem; }
   .detail-body { padding-block: 20px 80px; }
+  .single-class-description-text { padding: 24px 20px; }
+  .single-class-description-text h2 { font-size: 1.55rem; margin: 1.8rem 0 .8rem; padding-bottom: 10px; }
+  .single-class-description-text h2:first-child { margin-top: 0; }
+  .single-class-description-text p,
+  .single-class-description-text li { font-size: .95rem; line-height: 1.6; }
+  .single-class-description-text .included-list li { margin-bottom: 16px; padding-left: 10px; }
+  .booking-panel { padding: 1.4rem; }
+  .booking-panel h2 { font-size: 1.55rem; }
   .shop-hero { gap: 2rem; padding-block: 55px; }
   .shop-hero img { width: 260px; }
   .product-detail { padding-block: 35px 70px; }

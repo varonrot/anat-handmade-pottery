@@ -15,6 +15,11 @@ export type PotteryClass = {
   includedTitle: string;
   included: string[];
   idealFor: string;
+  idealForDetails?: {
+    intro: string;
+    booking: string;
+    ageGuidance: string;
+  };
   categories: string[];
   waitingList?: boolean;
 };
@@ -31,8 +36,8 @@ export const potteryClasses: PotteryClass[] = [
     duration: "1 Session x 2.5 Hours",
     heading: "The Private Pottery Session",
     intro: [
-      "Enjoy a hands-on, 2.5-hour immersion into the art of ceramics. Whether you are looking for dedicated one-to-one tuition or a creative date for two, this experience is flexible and beginner-friendly.",
-      "Choose between the rhythmic focus of wheel-throwing or the tactile nature of hand-building. You will receive professional guidance in a calm, creative studio environment.",
+      "Enjoy a hands-on, 2.5-hour pottery experience, with the studio and my full attention entirely to yourself. This private one-to-one session is tailored to you, whether you’re trying pottery for the first time or looking to develop your existing skills.",
+      "Choose between the rhythmic focus of wheel-throwing or the tactile nature of hand-building. I’ll guide you through the process at your own pace, helping you explore techniques and create your own unique pieces in a calm and welcoming studio environment.",
     ],
     highlights: [],
     includedTitle: "What’s Included",
@@ -41,9 +46,14 @@ export const potteryClasses: PotteryClass[] = [
       "A technical demonstration followed by supervised practice.",
       "Creation of 2–3 pieces in your chosen method.",
       "Professional trimming, glazing and kiln firing by Anat. Pieces are ready for collection in approximately four weeks.",
-      "All clay, underglazes, studio glazes and firing costs.",
+      "All Materials included: All clay, underglazes, studio glazes and firing costs.",
     ],
-    idealFor: "Adults at beginner level, anyone refining their technique, or those looking for a creative day out. Flexible booking is available for individuals, couples or small groups of up to four. Wheel sessions are recommended for adults and older teens aged 14+.",
+    idealFor: "",
+    idealForDetails: {
+      intro: "This experience is designed for beginners, those looking to refine their pottery technique, or anyone seeking a creative day out and a unique gift experience.",
+      booking: "Can be booked for Individuals, Couples, or Small Groups of up to 4 people.",
+      ageGuidance: "Wheel-throwing sessions use professional pottery wheels and are therefore recommended for adults and older teens (14+).",
+    },
     categories: ["1:1", "Single session", "Throwing", "Hand-building"],
   },
   {
