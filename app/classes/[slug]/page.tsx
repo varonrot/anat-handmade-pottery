@@ -11,6 +11,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: item.title, description: item.cardDescription };
 }
 
+function formatListItem(line: string) {
+  const separatorMatch = line.match(/:\s/);
+  if (!separatorMatch || separatorMatch.index === undefined) return line;
+  const separator = separatorMatch.index;
+  return <><strong>{line.slice(0, separator + 1)}</strong>{line.slice(separator + 1)}</>;
+}
+
 export default async function ClassDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params; const item = classBySlug.get(slug); if (!item) notFound();
   const waitingList = item.waitingList;
@@ -39,7 +46,7 @@ export default async function ClassDetail({ params }: { params: Promise<{ slug: 
     </div>
         <a className="button primary" href="#enquire">{waitingList ? "Join the waiting list" : "Enquire About This Class"}</a></div></section>
     <section className="detail-body section-shell"><article className="prose single-class-description-text">
-      <h2>{item.heading}</h2>{item.intro.map((p) => <p key={p}>{p}</p>)}{item.highlights.length > 0 && <><h2>{item.sectionTitle}</h2><ul>{item.highlights.map((line) => <li key={line}>{line}</li>)}</ul></>}<h2>{item.includedTitle}</h2>
-      <ul className="included-list">{item.included.map((line) => <li key={line}>{line}</li>)}</ul><h2>Ideal For</h2>{item.idealForDetails ? <div className="ideal-for-details"><p>{item.idealForDetails.intro}</p><p><strong>Flexible Booking:</strong> {item.idealForDetails.booking}</p><p><strong>Age guidance:</strong> {item.idealForDetails.ageGuidance}</p></div> : <p>{item.idealFor}</p>}</article><aside id="enquire" className="booking-panel"><p className="eyebrow">{waitingList ? "Friday morning class" : "Request a booking"}</p><h2>{waitingList ? "Join the waiting list" : "Find a time that works"}</h2><p>{waitingList ? "Tell Anat you’d like a place and she’ll be in touch when one becomes available." : "Share your preferred date and Anat will reply with availability within 24 hours."}</p><EnquiryForm compact subject={`${item.title} enquiry`} submitLabel={waitingList ? "Join the waiting list" : "Check availability"} /></aside></section>
+      <h2>{item.heading}</h2>{item.intro.map((p) => <p key={p}>{p}</p>)}{item.highlights.length > 0 && <><h2>{item.sectionTitle}</h2><ul>{item.highlights.map((line) => <li key={line}>{formatListItem(line)}</li>)}</ul></>}<h2>{item.includedTitle}</h2>
+      <ul className="included-list">{item.included.map((line) => <li key={line}>{formatListItem(line)}</li>)}</ul><h2>Ideal For</h2>{item.idealForDetails ? <div className="ideal-for-details"><p>{item.idealForDetails.intro}</p><p><strong>Flexible Booking:</strong> {item.idealForDetails.booking}</p><p><strong>Age guidance:</strong> {item.idealForDetails.ageGuidance}</p></div> : <p>{item.idealFor}</p>}</article><aside id="enquire" className="booking-panel"><p className="eyebrow">{waitingList ? "Friday morning class" : "Request a booking"}</p><h2>{waitingList ? "Join the waiting list" : "Find a time that works"}</h2><p>{waitingList ? "Tell Anat you’d like a place and she’ll be in touch when one becomes available." : "Share your preferred date and Anat will reply with availability within 24 hours."}</p><EnquiryForm compact subject={`${item.title} enquiry`} submitLabel={waitingList ? "Join the waiting list" : "Check availability"} /></aside></section>
   </main>;
 }
