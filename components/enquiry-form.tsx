@@ -4,7 +4,8 @@ import { FormEvent, useEffect, useState } from "react";
 
 type EnquiryFormProps = { subject?: string; compact?: boolean; submitLabel?: string };
 
-const FORM_ENDPOINT = "https://formsubmit.co/ajax/anat.pottery@gmail.com";
+const FORM_ENDPOINT = "https://api.web3forms.com/submit";
+const WEB3FORMS_ACCESS_KEY = "d08e9677-ac09-48d6-941c-8d74b5e28be0";
 
 export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact = false, submitLabel }: EnquiryFormProps) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
@@ -35,10 +36,11 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
     const emailSubject = productName ? `Enquiry about ${productName}` : subject;
 
     const payload = new FormData();
+    payload.append("access_key", WEB3FORMS_ACCESS_KEY);
     payload.append("name", name);
     payload.append("email", email);
-    payload.append("_replyto", email);
-    payload.append("_subject", emailSubject);
+    payload.append("subject", emailSubject);
+    payload.append("from_name", "Anat Handmade Pottery website");
     payload.append("page", window.location.href);
     if (selectedTopic) payload.append("enquiry_type", selectedTopic);
     if (date) payload.append("preferred_date_time", date);
@@ -51,7 +53,8 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
         headers: { Accept: "application/json" },
       });
 
-      if (!response.ok) throw new Error("Unable to send enquiry");
+      const result = await response.json() as { success?: boolean; message?: string };
+      if (!response.ok || !result.success) throw new Error(result.message || "Unable to send enquiry");
 
       form.reset();
       setMessage("");
