@@ -8,16 +8,21 @@ export function FacebookPixelTracker() {
   const isFirstRender = useRef(true);
 
   useEffect(() => {
-    // The base script in layout.tsx already fires PageView on the initial load.
-    // This effect tracks subsequent client-side route transitions in Next.js.
-    if (isFirstRender.current) {
-      isFirstRender.current = false;
-      return;
+    const analyticsWindow = window as unknown as {
+      fbq?: (...args: unknown[]) => void;
+      gtag?: (...args: unknown[]) => void;
+    };
+
+    if (!isFirstRender.current && typeof analyticsWindow.fbq === "function") {
+      analyticsWindow.fbq("track", "PageView");
     }
 
-    if (typeof window !== "undefined" && typeof (window as unknown as { fbq?: (...args: unknown[]) => void }).fbq === "function") {
-      (window as unknown as { fbq: (...args: unknown[]) => void }).fbq("track", "PageView");
+    if (pathname === "/thank-you") {
+      analyticsWindow.fbq?.("track", "Lead");
+      analyticsWindow.gtag?.("event", "generate_lead", { method: "enquiry_form" });
     }
+
+    isFirstRender.current = false;
   }, [pathname]);
 
   return null;

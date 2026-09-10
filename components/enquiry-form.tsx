@@ -53,10 +53,10 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
 
       if (!response.ok) throw new Error("Unable to send enquiry");
 
-      setStatus("sent");
       form.reset();
       setMessage("");
       if (!compact) setTopic("General question / studio visit");
+      window.location.assign("/thank-you/");
     } catch {
       setStatus("error");
     }
