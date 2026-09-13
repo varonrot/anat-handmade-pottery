@@ -13,6 +13,7 @@ const gallery = [
   ["/media/2026/01/20251119_141940-scaled.webp", "A small porcelain vase"],
   ["/media/2026/01/porcelain-centering.webp", "Centering porcelain on the wheel"],
   ["/media/2026/01/PXL_20250801_123617410.webp", "Anat beside the studio kiln"],
+  ["/media/studio/web_studiooutBest.webp", "The studio exterior"],
   ["/media/studio/web_wheels.webp", "Pottery wheels inside the studio"],
   ["/media/studio/web_me_entrance.webp", "Anat at the studio entrance"],
 ] as const;
