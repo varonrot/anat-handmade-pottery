@@ -69,8 +69,8 @@ export function ClassesCatalog({ items }: { items: PotteryClass[] }) {
               <p>{item.cardDescription}</p>
               <div className="original-class-meta">
                 <div>
-                  <span>Price</span>
-                  <strong>{item.originalPrice && <del>{item.originalPrice}</del>} {item.price}</strong>
+                  <span>PRICE:</span>
+                  <strong>{item.originalPrice && <del>{item.originalPrice}</del>} {item.price}{item.slug === "friday-morning-guided-project-sessions" && " Per Session"}</strong>
                 </div>
                 <div>
                   <span>Duration</span>
