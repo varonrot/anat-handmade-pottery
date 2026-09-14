@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Thank You",
   description: "Your enquiry has been received by Anat Handmade Pottery.",
+  robots: { index: false, follow: false },
 };
 
 export default function ThankYouPage() {

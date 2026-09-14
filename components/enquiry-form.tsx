@@ -10,16 +10,28 @@ const WEB3FORMS_ACCESS_KEY = "d08e9677-ac09-48d6-941c-8d74b5e28be0";
 export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact = false, submitLabel }: EnquiryFormProps) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [productName, setProductName] = useState("");
+  const [className, setClassName] = useState("");
   const [topic, setTopic] = useState("General question / studio visit");
   const [message, setMessage] = useState("");
 
   useEffect(() => {
     if (compact) return;
-    const product = new URL(window.location.href).searchParams.get("product");
-    if (!product) return;
-    setProductName(product);
-    setTopic("I’m interested in purchasing pottery");
-    setMessage(`I’m interested in ${product}. Please let me know if it is available.`);
+    const searchParams = new URL(window.location.href).searchParams;
+    const product = searchParams.get("product");
+    const classQuery = searchParams.get("class");
+    if (product) {
+      window.requestAnimationFrame(() => {
+        setProductName(product);
+        setTopic("I’m interested in purchasing pottery");
+        setMessage(`I’m interested in ${product}. Please let me know if it is available.`);
+      });
+    } else if (classQuery) {
+      window.requestAnimationFrame(() => {
+        setClassName(classQuery);
+        setTopic("I’m interested in a class");
+        setMessage(`I’m interested in ${classQuery}. Please let me know about availability.`);
+      });
+    }
   }, [compact]);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
@@ -33,7 +45,7 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
     const date = String(data.get("date") || "").trim();
     const selectedTopic = String(data.get("topic") || "").trim();
     const submittedMessage = String(data.get("message") || "").trim();
-    const emailSubject = productName ? `Enquiry about ${productName}` : subject;
+    const emailSubject = productName ? `Enquiry about ${productName}` : className ? `Enquiry about ${className}` : subject;
 
     const payload = new FormData();
     payload.append("access_key", WEB3FORMS_ACCESS_KEY);

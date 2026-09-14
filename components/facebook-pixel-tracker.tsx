@@ -8,6 +8,7 @@ export function FacebookPixelTracker() {
   const isFirstRender = useRef(true);
 
   useEffect(() => {
+    if (window.localStorage.getItem("anat-pottery-cookie-consent") !== "accepted") return;
     const analyticsWindow = window as unknown as {
       fbq?: (...args: unknown[]) => void;
       gtag?: (...args: unknown[]) => void;

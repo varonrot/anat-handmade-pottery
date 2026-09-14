@@ -9,11 +9,12 @@ export function CookieBanner() {
 
   useEffect(() => {
     const consent = window.localStorage.getItem(COOKIE_CONSENT_KEY);
-    if (!consent) setVisible(true);
+    if (!consent) window.requestAnimationFrame(() => setVisible(true));
   }, []);
 
-  const acceptCookies = () => {
-    window.localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+  const setConsent = (value: "accepted" | "rejected") => {
+    window.localStorage.setItem(COOKIE_CONSENT_KEY, value);
+    window.dispatchEvent(new Event("anat-cookie-consent"));
     setVisible(false);
   };
 
@@ -55,7 +56,7 @@ export function CookieBanner() {
         </p>
         <button
           type="button"
-          onClick={acceptCookies}
+          onClick={() => setConsent("accepted")}
           style={{
             border: 0,
             borderRadius: 4,
@@ -67,6 +68,13 @@ export function CookieBanner() {
           }}
         >
           Accept
+        </button>
+        <button
+          type="button"
+          onClick={() => setConsent("rejected")}
+          style={{ border: 0, background: "transparent", color: "#111", padding: "9px 4px", fontSize: 14, cursor: "pointer" }}
+        >
+          Reject
         </button>
       </div>
     </div>
