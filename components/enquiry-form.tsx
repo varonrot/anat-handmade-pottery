@@ -79,6 +79,7 @@ export function EnquiryForm({ subject = "Anat Handmade Pottery enquiry", compact
 
   return (
     <form className={`enquiry-form ${compact ? "compact" : ""}`} id="contact-form" onSubmit={submit}>
+      <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
       <div className="form-row">
         <label>Name *<input name="name" autoComplete="name" required disabled={status === "sending"} /></label>
         <label>Email *<input name="email" type="email" autoComplete="email" required disabled={status === "sending"} /></label>
